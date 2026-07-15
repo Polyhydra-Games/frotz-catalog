@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "updated": "2026-07-15",
+  "catalogAuthorities": {
+    "identity": "frotz-catalog static JSON",
+    "storySource": "approved external reference",
+    "media": "Api.CDN when a rights-cleared artifact is published"
+  },
+  "entries": [
+    {
+      "slug": "zork-i",
+      "title": "Zork I",
+      "sortTitle": "Zork 1",
+      "series": "Zork",
+      "publisher": "Infocom",
+      "firstPublishedYear": 1980,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": ["z-machine", "interactive-fiction", "text-adventure"],
+      "story": {
+        "tagline": "The Great Underground Empire begins here.",
+        "synopsis": "A catalog seed for the first Frotz external-catalog rollout.",
+        "spoilerLevel": "none",
+        "sourceStatus": "curated"
+      },
+      "editions": [{
+        "editionId": "zork-i-infocom-1980-z3-public",
+        "title": "Infocom Z-machine release",
+        "releaseYear": 1980,
+        "publisher": "Infocom",
+        "runtime": "frotz",
+        "storyFile": {
+          "kind": "story-file",
+          "runtime": "frotz",
+          "storyUrl": "https://raw.githubusercontent.com/lancer1977/frotz/main/frotz_old/games/zork1.dat",
+          "sourceStatus": "present",
+          "rightsStatus": "external-reference-only",
+          "provenance": "Existing Frotz production-safe external story reference.",
+          "spoilerLevel": "none"
+        },
+        "artifacts": [{
+          "artifactId": "zork-i-manual",
+          "kind": "manual",
+          "title": "Instruction Manual",
+          "sourceStatus": "missing",
+          "rightsStatus": "unknown",
+          "provenance": "Awaiting a canonical rights-cleared locator.",
+          "spoilerLevel": "none"
+        }, {
+          "artifactId": "zork-i-feelies",
+          "kind": "feelies",
+          "title": "Original package feelies",
+          "sourceStatus": "missing",
+          "rightsStatus": "unknown",
+          "provenance": "Awaiting a canonical rights-cleared locator.",
+          "spoilerLevel": "none"
+        }]
+      }],
+      "museumNotes": ["Catalog metadata only; no story binary or restricted artifact is stored here."]
+    },
+    {
+      "slug": "planetfall",
+      "title": "Planetfall",
+      "publisher": "Infocom",
+      "firstPublishedYear": 1983,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": ["z-machine", "interactive-fiction", "text-adventure"],
+      "story": {"tagline": "Placeholder for a future rights-verified edition.", "synopsis": "Metadata placeholder only.", "spoilerLevel": "none", "sourceStatus": "placeholder"},
+      "editions": [],
+      "museumNotes": ["No story-file locator has been approved; this entry is intentionally not playable."]
+    }
+  ]
+}
