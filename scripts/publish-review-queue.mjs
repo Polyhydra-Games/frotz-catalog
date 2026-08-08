@@ -8,7 +8,11 @@
 // into catalog.json) and writes them as CSV for review.
 //
 // Usage:
-//   node scripts/publish-review-queue.mjs [--out review-queue.csv]
+//   node scripts/publish-review-queue.mjs [--out review-queue.csv] [--include-ambiguous]
+//
+// With --include-ambiguous, ambiguous-title-match entries are also included,
+// one row per candidate, since disambiguating which (if any) candidate is
+// correct is exactly the kind of judgment call this queue exists for.
 //
 // After review, approved rows still need a manual step: upload the image at
 // <retro_v2 root>/<relativePath> via Api.CDN's /api/v1/uploads flow, then
@@ -19,9 +23,10 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 function parseArgs(argv) {
-  const args = { out: "review-queue.csv" };
+  const args = { out: "review-queue.csv", includeAmbiguous: false };
   for (let i = 0; i < argv.length; i += 1) {
     if (argv[i] === "--out") args.out = argv[++i];
+    if (argv[i] === "--include-ambiguous") args.includeAmbiguous = true;
   }
   return args;
 }
@@ -48,23 +53,26 @@ async function main() {
     if (!tuid) continue; // hand-curated entries (e.g. zork-i) aren't IFDB-sourced
 
     const match = matchByTuid.get(tuid);
-    if (!match || match.status !== "title-match-needs-review") continue; // skip no-match and ambiguous
-    if (match.candidates.length !== 1) continue;
+    if (!match) continue;
+    const isUnambiguous = match.status === "title-match-needs-review" && match.candidates.length === 1;
+    const isAmbiguous = args.includeAmbiguous && match.status === "ambiguous-title-match";
+    if (!isUnambiguous && !isAmbiguous) continue;
 
     const artifact = entry.editions
       ?.flatMap((edition) => edition.artifacts ?? [])
       .find((item) => item.kind === "box-art" && item.sourceStatus === "missing");
     if (!artifact) continue; // already has art, or no box-art slot was created
 
-    const candidate = match.candidates[0];
-    rows.push({
-      slug: entry.slug,
-      title: entry.title,
-      artifactId: artifact.artifactId,
-      matchedSystem: candidate.system,
-      matchedGame: candidate.game,
-      relativePath: candidate.relativePath,
-    });
+    for (const candidate of match.candidates) {
+      rows.push({
+        slug: entry.slug,
+        title: entry.title,
+        artifactId: artifact.artifactId,
+        matchedSystem: candidate.system,
+        matchedGame: candidate.game,
+        relativePath: candidate.relativePath,
+      });
+    }
   }
 
   const header = ["slug", "title", "artifactId", "matchedSystem", "matchedGame", "relativePath", "approved", "reviewerNote"];

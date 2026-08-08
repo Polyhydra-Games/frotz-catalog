@@ -229,10 +229,12 @@
               "artifactId": "ifdb-17coplfu323xif76-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=17coplfu323xif76&version=15. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/zork%20zero_%20the%20revenge%20of%20megaboz/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -390,10 +392,12 @@
               "artifactId": "ifdb-3p9fdt4fxr2goctw-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=3p9fdt4fxr2goctw&version=25. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/leather%20goddesses%20of%20phobos/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -443,10 +447,12 @@
               "artifactId": "ifdb-4ao65o1u0xuvj8jf-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=4ao65o1u0xuvj8jf&version=15. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/cutthroats/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -551,10 +557,12 @@
               "artifactId": "ifdb-56wb8hflec2isvzm-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=56wb8hflec2isvzm&version=12. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/seastalker/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -714,10 +722,12 @@
               "artifactId": "ifdb-9h6o1charof548ii-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=9h6o1charof548ii&version=20. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/beyond%20zork/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -767,10 +777,12 @@
               "artifactId": "ifdb-9nlbhqnlyb169uge-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=9nlbhqnlyb169uge&version=10. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/stationfall/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -820,10 +832,12 @@
               "artifactId": "ifdb-anu79a4n1jedg5mm-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=anu79a4n1jedg5mm&version=14. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/infidel/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -926,10 +940,12 @@
               "artifactId": "ifdb-b0i6bx7g4rkrekgg-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=b0i6bx7g4rkrekgg&version=15. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/ballyhoo/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1007,7 +1023,7 @@
       ],
       "story": {
         "tagline": null,
-        "synopsis": "More ghosts haunt the misty sea-coast and stone ramparts of Cornwall than anyplace else on earth. One such soul roams Tresyllian Castle: a pale phantom with flaxen hair and a luminous, flowing gown. It seems like a fanciful legend... until the spectral \"White Lady\" threatens the life of your friend Tamara! \n \nArriving at the fog-shrouded castle, you meet a cast of eccentric characters ranging from a blue-blood debutante to an overly helpful butler. Has one of them donned the ghostly guise of the White Lady? Or has the drowned lover of Lord Jack, Tamara's fiancé, returned to haunt her successor? Perhaps the spectre is seeking the valuable treasure hidden somewhere in the lavish rooms and secret passageways of the castle. The solution to the mystery, as well as the location of the treasure, changes in each of the four variations of Moonmist. \n \nGet ready to spend the night in a haunted castle. But don't sleep too soundly. The next victim might be you. \n \nDifficulty: Introductory",
+        "synopsis": "More ghosts haunt the misty sea-coast and stone ramparts of Cornwall than anyplace else on earth. One such soul roams Tresyllian Castle: a pale phantom with flaxen hair and a luminous, flowing gown. It seems like a fanciful legend... until the spectral \"White Lady\" threatens the life of your friend Tamara! \n \nArriving at the fog-shrouded castle, you meet a cast of eccentric characters ranging from a blue-blood debutante to an overly helpful butler. Has one of them donned the ghostly guise of the White Lady? Or has the drowned lover of Lord Jack, Tamara's fianc\u00e9, returned to haunt her successor? Perhaps the spectre is seeking the valuable treasure hidden somewhere in the lavish rooms and secret passageways of the castle. The solution to the mystery, as well as the location of the treasure, changes in each of the four variations of Moonmist. \n \nGet ready to spend the night in a haunted castle. But don't sleep too soundly. The next victim might be you. \n \nDifficulty: Introductory",
         "spoilerLevel": "none",
         "sourceStatus": "imported"
       },
@@ -1032,10 +1048,12 @@
               "artifactId": "ifdb-c66u816v8kx2jzm2-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=c66u816v8kx2jzm2&version=13. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/moonmist/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1085,10 +1103,12 @@
               "artifactId": "ifdb-ddagftras22bnz8h-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=ddagftras22bnz8h&version=13. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/plundered%20hearts/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1138,10 +1158,12 @@
               "artifactId": "ifdb-j18kjz80hxjtyayw-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=j18kjz80hxjtyayw&version=21. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/trinity/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1301,10 +1323,12 @@
               "artifactId": "ifdb-jnfkbgdgopwfqist-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=jnfkbgdgopwfqist&version=15. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/hollywood%20hijinx/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1354,10 +1378,12 @@
               "artifactId": "ifdb-lidg5nx9ig0bwk55-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=lidg5nx9ig0bwk55&version=16. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/sorcerer/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1462,10 +1488,12 @@
               "artifactId": "ifdb-p976o7x5ies9ltdh-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=p976o7x5ies9ltdh&version=24. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/deadline/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1490,7 +1518,7 @@
       ],
       "story": {
         "tagline": null,
-        "synopsis": "A refurbished version of the work-in-progress, never-released Mini-Zork II found in Infocom's archives. Primarily restored by Torbjörn Andersson.\n\nCompared to the full game, the map and some of the puzzles have been simplified and much of the text has been shortened. The Bank of Zork and Oddly-angled rooms have been dropped completely, and the Wizard has lost a few of his spells.\n\nExpect the unexpected when you take on Zork II: The Wizard of Frobozz.\n\nAs you explore the subterranean realm of Zork, you'll continually be confronted with new surprises. Chief among these is the Wizard himself, who'll constantly endeavor to confound you with his capricious powers. But more than that, you'll face a challenge the likes of which you've never experienced before.",
+        "synopsis": "A refurbished version of the work-in-progress, never-released Mini-Zork II found in Infocom's archives. Primarily restored by Torbj\u00f6rn Andersson.\n\nCompared to the full game, the map and some of the puzzles have been simplified and much of the text has been shortened. The Bank of Zork and Oddly-angled rooms have been dropped completely, and the Wizard has lost a few of his spells.\n\nExpect the unexpected when you take on Zork II: The Wizard of Frobozz.\n\nAs you explore the subterranean realm of Zork, you'll continually be confronted with new surprises. Chief among these is the Wizard himself, who'll constantly endeavor to confound you with his capricious powers. But more than that, you'll face a challenge the likes of which you've never experienced before.",
         "spoilerLevel": "none",
         "sourceStatus": "imported"
       },
@@ -1558,10 +1586,12 @@
               "artifactId": "ifdb-t47hei9uq10xoar8-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=t47hei9uq10xoar8&version=22. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/suspended/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1611,10 +1641,12 @@
               "artifactId": "ifdb-tdbss1ekrp4ua7h4-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=tdbss1ekrp4ua7h4&version=11. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/suspect/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1717,10 +1749,12 @@
               "artifactId": "ifdb-vu4xhul3abknifcr-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=vu4xhul3abknifcr&version=18. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/enchanter/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1770,10 +1804,12 @@
               "artifactId": "ifdb-w3pz3v8wckaw1wgb-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=w3pz3v8wckaw1wgb&version=14. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/c64/shogun/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1823,10 +1859,12 @@
               "artifactId": "ifdb-wqsmrahzozosu3r-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=wqsmrahzozosu3r&version=11. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/spellbreaker/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1876,10 +1914,12 @@
               "artifactId": "ifdb-xe6kb3cuqwie2q38-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=xe6kb3cuqwie2q38&version=20. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/planetfall/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1929,10 +1969,12 @@
               "artifactId": "ifdb-y42oje3ryqi6lohn-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=y42oje3ryqi6lohn&version=14. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/starcross/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -2037,10 +2079,12 @@
               "artifactId": "ifdb-z02joykzh66wfhcl-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=z02joykzh66wfhcl&version=18. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/wishbringer/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -2090,10 +2134,12 @@
               "artifactId": "ifdb-zjyxds3s57pgis3x-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=zjyxds3s57pgis3x&version=16. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/bureaucracy/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -2143,10 +2189,12 @@
               "artifactId": "ifdb-zoohwv5nqye7up2t-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=zoohwv5nqye7up2t&version=20. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/arthur_%20the%20quest%20for%20excalibur/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -2171,7 +2219,7 @@
       ],
       "story": {
         "tagline": null,
-        "synopsis": "You are standing at the edge of a barren field. A steady wind, having secreted away the topsoil, is now drifting sandy dirt across the plain. A scant sign of life here is a freshly-burrowed molehill on the ground. \n\n> MAKE A MOUNTAIN OUT OF THE MOLEHILL \n\nThere is a tremendous rumbling in the distance, getting louder and louder, until it is deafening. The dirt around the molehill crumbles away as mighty, jagged granite peaks emerge from deep underground. The surrounding landscape transforms into a fertile valley before your very eyes. \n\nInfocom's first collection of short stories takes you to a place where nothing is quite as it seems. It's a place where you really can make a mountain out of a molehill, where \"the fur is flying\" is taken literally, and where a bow can be turned into a beau. \n\nEach of the eight stories in Nord and Bert Couldn't Make Head or Tail of It involves a different type of wordplay. You'll find yourself challenging your wits and your memory to come up with the clichés, spoonerisms, and other verbal trickeries needed to complete the puzzles. But don't view this as a hard row to hoe. Nord and Bert contains built-in hints, which you can call upon when the going gets rough. \n \nAll eight stories take place in the mixed-up town of Punster. However, no two contain the same people, locations, or objects. Each is played independently of the others, although you'll use passwords obtained in seven of the stories to get into the eighth. As for mapping, it's out of the window. You simply type where you want to go. \n \nThe tall tales in Nord and Bert are every bit as fun and clever as Infocom's other interactive fiction stories. They can each be completed in one sitting, making them a highly entertaining way to spend an evening, alone or with friends. Nord and Bert was authored by Jeff O'Neill, whose mind is constantly working on artful new turns of phrase.",
+        "synopsis": "You are standing at the edge of a barren field. A steady wind, having secreted away the topsoil, is now drifting sandy dirt across the plain. A scant sign of life here is a freshly-burrowed molehill on the ground. \n\n> MAKE A MOUNTAIN OUT OF THE MOLEHILL \n\nThere is a tremendous rumbling in the distance, getting louder and louder, until it is deafening. The dirt around the molehill crumbles away as mighty, jagged granite peaks emerge from deep underground. The surrounding landscape transforms into a fertile valley before your very eyes. \n\nInfocom's first collection of short stories takes you to a place where nothing is quite as it seems. It's a place where you really can make a mountain out of a molehill, where \"the fur is flying\" is taken literally, and where a bow can be turned into a beau. \n\nEach of the eight stories in Nord and Bert Couldn't Make Head or Tail of It involves a different type of wordplay. You'll find yourself challenging your wits and your memory to come up with the clich\u00e9s, spoonerisms, and other verbal trickeries needed to complete the puzzles. But don't view this as a hard row to hoe. Nord and Bert contains built-in hints, which you can call upon when the going gets rough. \n \nAll eight stories take place in the mixed-up town of Punster. However, no two contain the same people, locations, or objects. Each is played independently of the others, although you'll use passwords obtained in seven of the stories to get into the eighth. As for mapping, it's out of the window. You simply type where you want to go. \n \nThe tall tales in Nord and Bert are every bit as fun and clever as Infocom's other interactive fiction stories. They can each be completed in one sitting, making them a highly entertaining way to spend an evening, alone or with friends. Nord and Bert was authored by Jeff O'Neill, whose mind is constantly working on artful new turns of phrase.",
         "spoilerLevel": "none",
         "sourceStatus": "imported"
       },
@@ -2196,10 +2244,12 @@
               "artifactId": "ifdb-zxb8pq3qrkvdob4i-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=zxb8pq3qrkvdob4i&version=16. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/nord%20and%20bert%20couldn%27t%20make%20head%20or%20tail%20of%20it/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -3042,7 +3092,7 @@
       ],
       "story": {
         "tagline": null,
-        "synopsis": "You step out of the transporter. The chameleon circuitry has done its job: your transporter now perfectly matches a neat row of identical red boxes on the premises. To any passerby, it is entirely unremarkable.\n\nThe environment is quiet. Too quiet. Something is wrong. You activate your Coordinated Space-Time Synchronous Reorganizer, affectionately known as the Time Swapper. Almost immediately, it emits a warning: “Anomalies detected in this time period.”",
+        "synopsis": "You step out of the transporter. The chameleon circuitry has done its job: your transporter now perfectly matches a neat row of identical red boxes on the premises. To any passerby, it is entirely unremarkable.\n\nThe environment is quiet. Too quiet. Something is wrong. You activate your Coordinated Space-Time Synchronous Reorganizer, affectionately known as the Time Swapper. Almost immediately, it emits a warning: \u201cAnomalies detected in this time period.\u201d",
         "spoilerLevel": "none",
         "sourceStatus": "imported"
       },
@@ -3085,7 +3135,7 @@
       ],
       "story": {
         "tagline": null,
-        "synopsis": "This should be majorly easy. You’re in. The ship is empty, abandoned. Now we can begin.",
+        "synopsis": "This should be majorly easy. You\u2019re in. The ship is empty, abandoned. Now we can begin.",
         "spoilerLevel": "none",
         "sourceStatus": "imported"
       },
