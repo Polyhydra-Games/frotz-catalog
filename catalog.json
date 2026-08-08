@@ -2191,6 +2191,738 @@
       "museumNotes": [
         "Promoted from frotz-catalog's IFDB import (tuid zxb8pq3qrkvdob4i, track: byog)."
       ]
+    },
+    {
+      "slug": "ifdb-1rea34vqnz3mtyq1",
+      "title": "Mini-Zork",
+      "sortTitle": "MINI-ZORK",
+      "series": "Mini-Zork series",
+      "author": "Dave Lebling, Marc Blank",
+      "firstPublishedYear": 1988,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "This story file is a condensed version of Zork I, Infocom's most popular title, reduced to make it viable for the cassette-based Commodore 64. The only Infocom story file ever to be intended to run from cassette rather than disk, the Mini-Zork has been compared to a Reader's Digest edition of a classic. The Mini-Zork is one of several instances of Infocom revisiting Zork in its final years of Infocom: there were also the Solid Gold edition, the never-completed German translation and the sequels Beyond Zork and Zork Zero. \n \nMini-Zork I had a brief shelf-life in computer shops, in Activision packaging, but it is now best known for its magazine release. In November 1990, a year after Infocom had effectively become defunct, the Mini-Zork was given away with the British Commodore users' magazine \"Zzap! 64\" no. 67, which is now a collector's item.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-1rea34vqnz3mtyq1-ifdb-import",
+          "title": "34",
+          "releaseYear": 1988,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://ifarchive.org/if-archive/infocom/demos/minizork.z3",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Mini-Zork\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-1rea34vqnz3mtyq1-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=1rea34vqnz3mtyq1&version=7. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 1rea34vqnz3mtyq1, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-32cgssxxwjijh3ai",
+      "title": "Coils of Hate",
+      "sortTitle": "COILS OF HATE",
+      "series": "Virtual Reality Adventure",
+      "author": "Mark Smith, SD Separa",
+      "firstPublishedYear": 2024,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Alone in the labyrinthine streets of the ancient city of Godorno, you frantically attempt to save your people -- the Judain -- from their tyrannical ruler, the Overlord. Terrified of being hunted down, the Judain have gone to ground. But now there is an even greater menace: Hate, the very embodiment of all that is sinister, has invaded the city. Its tentacles emerge from the sewers beneath the city, destroying everything. No one is safe. Will you be able to vanquish Hate and prevent the annihilation of your People?\n\n(An adaptation of a 1993 gamebook by Mark Smith.)",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-32cgssxxwjijh3ai-ifdb-import",
+          "title": "1",
+          "releaseYear": 2024,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/coils-of-hate/releases/download/v1.2.1/coilshate.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Coils of Hate\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-32cgssxxwjijh3ai-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=32cgssxxwjijh3ai&version=3. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 32cgssxxwjijh3ai, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-5oyuskkd7zv3h5g1",
+      "title": "Necklace of Skulls",
+      "sortTitle": "NECKLACE OF SKULLS",
+      "series": "Virtual Reality Adventure",
+      "author": "Dave Morris, SD Separa",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Learning of the disappearance of your twin brother in the trackless desert, you resolve to set out and discover his fate. Leaving the hub of your elaborate Mayan civilization far behind, your quest takes you to the lost jungle cities, across mountains and seas, and even to the baleful depths of the underworld. If you are luck enough to survive the treacherous desert journey, you must still confront the wizard called Necklace of Skulls in a deadly contest whose stakes are nothing less than your own soul.\n\nAn unofficial adaptation of the 1993 Virtual Reality Adventures book by Dave Morris",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-5oyuskkd7zv3h5g1-ifdb-import",
+          "title": "1",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/necklace-skulls/releases/download/v1.6.2/necklace.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Necklace of Skulls\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-5oyuskkd7zv3h5g1-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=5oyuskkd7zv3h5g1&version=2. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 5oyuskkd7zv3h5g1, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-boew0e2h7sq2x17m",
+      "title": "The Investment",
+      "sortTitle": "INVESTMENT, THE",
+      "series": null,
+      "author": "Xal, Pepper Ivy",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "The year is 20XX, and the economy is in shambles. The market has fallen to its' knees, despite every effort on the part of the government and investors. Now, desperation is spreading amongst the people like a plague, with pressure building to find any way to save the market from utterly collapsing.\nStock buybacks, pouring trillions in liquidity into the market, bailouts, tax cuts..\n\nIt's the start of a new day, what ought to be just another typical Tuesday on Wall Street. Today, however, the knowledge that you have been chosen burdens you greatly.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-boew0e2h7sq2x17m-ifdb-import",
+          "title": "1",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://ifarchive.org/if-archive/games/zcode/TheInvestment.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"The Investment\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": []
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid boew0e2h7sq2x17m, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-lbfc6ngu1347s7rn",
+      "title": "Secret of the Knights",
+      "sortTitle": "SECRET OF THE KNIGHTS",
+      "series": "Time Machine",
+      "author": "Jim Gasperini, SD Separa",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "IT IS THE YEAR 1340.\n\nYou have traveled back to the age of knights.\n\nA squire has just accused you of being a sorcerer. You must prove yourself in a duel with quarterstaves, but you've never used them before.\n\nYou can try to defend yourself or escape through the angry crowd. Your decision can lead you to safety or leave you stranded in time!\n\nARE YOU READY TO FACE THE DANGER?\n\nAn unofficial adaptation of the 1984 Time Machine book by Jim Gasperini",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-lbfc6ngu1347s7rn-ifdb-import",
+          "title": "4",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/secret-knights/releases/download/20221002/knights.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Secret of the Knights\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-lbfc6ngu1347s7rn-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=lbfc6ngu1347s7rn&version=9. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid lbfc6ngu1347s7rn, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-ojmkb4zz9igsj1h7",
+      "title": "The War-Torn Kingdom",
+      "sortTitle": "WAR-TORN KINGDOM, THE",
+      "series": "Fabled Lands",
+      "author": "SD Separa, Dave Morris, Jamie Thomson",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "In THE WAR-TORN KINGDOM revolution rages in Sokara. You can join forces with the king to restore his throne, or look for profit working for the dictator, Grieve Marlock. Use fighting skills or sorcery, bribery or skullduggery to survive the back streets. Descend to the sewers of Yellowport to defeat the vile rat-king, Skabb. Retrieve the golden net from the Repulsive Ones under the sea -- and use the rewards of your victories to travel beyond the boundaries of the known world.\n\nYour journeys will bring you foes and friends, danger and triumph, fortune and fame -- and more adventures than you have ever dreamed of!\n\nAn unofficial adaptation of the 1995 Quest/Fabled Lands Game Book by Dave Morris and Jamie Thomson, as updated in 2010.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-ojmkb4zz9igsj1h7-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/war-torn-kingdom/releases/download/2020091602/wartorn.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"The War-Torn Kingdom\" (IFDB license field: MIT).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-ojmkb4zz9igsj1h7-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=ojmkb4zz9igsj1h7&version=4. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid ojmkb4zz9igsj1h7, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-p00ucaayobrt2paz",
+      "title": "Four-In-One Sampler II",
+      "sortTitle": "FOUR-IN-ONE SAMPLER II",
+      "series": "Infocom's Four-In-One Sampler series",
+      "author": "Various",
+      "firstPublishedYear": 1987,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "This second Four-In-One sampler updated the first, reflecting the dramatic expansion in Infocom's output between 1984 and 1987. It contains introductory portions of Zork I, Leather Goddesses of Phobos, and Trinity, together with a tutorial from Wishbringer.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-p00ucaayobrt2paz-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1987,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://ifarchive.org/if-archive/infocom/demos/sampler2.z3",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Four-In-One Sampler II\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-p00ucaayobrt2paz-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=p00ucaayobrt2paz&version=6. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid p00ucaayobrt2paz, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-r1oi341f32uwg9n4",
+      "title": "Sail With Pirates",
+      "sortTitle": "SAIL WITH PIRATES",
+      "series": "Time Machine",
+      "author": "Jim Gasperini, SD Separa (2022)",
+      "firstPublishedYear": 2023,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "IT IS THE YEAR 1684\n\nYou have traveled back to the age of pirates.\n\nYou are stading face-to-face with a pirate captain. He offers you a choice: join his crew or die.\n\nYou can sign the parchment and become a pirate or attempt to escape before he can catch you. Your decision may lead you to safty or leave you stranded in time!\n\nARE YOU READY TO FACE THE DANGER?\n\nAn unofficial adaptation of the 1984 Time Machine book by Jim Gasperini",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-r1oi341f32uwg9n4-ifdb-import",
+          "title": "3",
+          "releaseYear": 2023,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/sail-with-pirates/releases/download/v003/pirates.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Sail With Pirates\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-r1oi341f32uwg9n4-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=r1oi341f32uwg9n4&version=8. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid r1oi341f32uwg9n4, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-ti37r5scihlc4n4b",
+      "title": "Down Among the Dead Men",
+      "sortTitle": "DOWN AMONG THE DEAD MEN",
+      "series": "Virtual Reality Adventure",
+      "author": "Dave Morris, SD Separa",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Adrift at sea in an open boat, you make your desperate bid to escape from the evil pirate Skarvench. The odds are stacked against you, for, even if you do not die of thirst, there are still formidable dangers to overcome. And if you do survive to reach civilization, your adventure is only just beginning since you must round up a crew and sail in search of Skarvench and avenge his tyranny. But will you be able to thwart his most evil and blackguardly scheme ever: to kidnap the beautiful young Queen of Glorianne?\n\nAn unofficial adaptation of the 1993 Virtual Reality Adventures book by Dave Morris",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-ti37r5scihlc4n4b-ifdb-import",
+          "title": "4",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/dead-men/releases/download/v1.6.1/deadmen.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Down Among the Dead Men\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-ti37r5scihlc4n4b-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=ti37r5scihlc4n4b&version=10. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid ti37r5scihlc4n4b, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-vchsmiok2zmrsnze",
+      "title": "The Bean Stalker",
+      "sortTitle": "BEAN STALKER, THE",
+      "series": null,
+      "author": "Jack Welch",
+      "firstPublishedYear": 2018,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Caught in an economic downturn, can Jack leverage his starving cow and climb the economic ladder? \n\nEstimated playtime: Not long at all.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-vchsmiok2zmrsnze-ifdb-import",
+          "title": "1",
+          "releaseYear": 2018,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/dhakajack/bean/releases/download/v1.0/jack.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"The Bean Stalker\" (IFDB license field: MIT).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-vchsmiok2zmrsnze-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=vchsmiok2zmrsnze&version=7. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid vchsmiok2zmrsnze, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-wa8crlfz82pra14i",
+      "title": "Four-In-One Sampler I",
+      "sortTitle": "FOUR-IN-ONE SAMPLER I",
+      "series": "Infocom's Four-In-One Sampler series",
+      "author": "Various",
+      "firstPublishedYear": 1984,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "The Four-In-One sampler contains introductory portions of Infidel, Planetfall, and Zork I, together with a session transcript from The Witness, and a scene found in no other Infocom game: Marc Blank's Catch-A-Butterfly tutorial.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-wa8crlfz82pra14i-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1984,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://ifarchive.org/if-archive/infocom/demos/sampler1_R55.z3",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Four-In-One Sampler I\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-wa8crlfz82pra14i-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=wa8crlfz82pra14i&version=6. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid wa8crlfz82pra14i, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-vfrr7qopqk2z5n6e",
+      "title": "Heart of Ice",
+      "sortTitle": "HEART OF ICE",
+      "series": "Virtual Reality Adventure",
+      "author": "Dave Morris, SD Separa",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Legend says that the one who possesses the Heart of Volent shall wield ultimate power. Created in the searing fires of the Big Bang, this fabulous gemstone focuses the cosmic forces which shape the universe itself. As cahos grows and a new Ice Age closes its grip on the world, you and handful of desperate adventurers compete in your search for the gem. Are you ruthless and resourceful enough to win its power for yourself?\n\nAn unofficial adaptation of the 1994 Virtual Reality Adventures book by Dave Morris",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-vfrr7qopqk2z5n6e-ifdb-import",
+          "title": "5",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/heart-of-ice/releases/download/v1.8.2/heartice.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Heart of Ice\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-vfrr7qopqk2z5n6e-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=vfrr7qopqk2z5n6e&version=2. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid vfrr7qopqk2z5n6e, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-wmn1law968j3a1y",
+      "title": "Green Blood",
+      "sortTitle": "GREEN BLOOD",
+      "series": "Virtual Reality Adventure",
+      "author": "Mark Smith, Dave Morris,  SD Separa",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "The evil Westermen are destroying the once beautiful and idyllic Forest of Arden. The trees are being torn down and used to fuel the raging smelters that are making deadly weapons and engines of war. In your desperate quest to prevent the annihilation of the forest you must face many dangers. But will you be able to stop the heartless mercenaries and their Infernal Machine as it smashes the very heart of the forest, the Tree of Life?\n\nAn unofficial adaptation of the 1993 Virtual Reality Adventures book by Dave Morris and Mark Smith",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-wmn1law968j3a1y-ifdb-import",
+          "title": "4",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/green-blood/releases/download/v1.6.1/greenblood.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Green Blood\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-wmn1law968j3a1y-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=wmn1law968j3a1y&version=10. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid wmn1law968j3a1y, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-wn764nzuit2wwpng",
+      "title": "Over the Blood-Dark Sea",
+      "sortTitle": "OVER THE BLOOD-DARK SEA",
+      "series": "Fabled Lands",
+      "author": "Dave Morris, Jamie Thomson, SD Separa",
+      "firstPublishedYear": 2022,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "OVER THE BLOOD-DARK SEA lie countless islands steeped in mystery. Every port brings peril -- from the half-wild settlements on the edge of Anon-Konu, to the forbidden cloisters of the sorcerers' colleges of Dweomer. Every voyage means danger -- from murderous pirates and haunted ships.\n\nYou can choose to be a daring explorer, in search of conquests, treasures and power. Or a magical savant, invoking the secrets of the occult to annihilate your foes. Or you can amass a fortune as a merchant, trading in spice shipments from the Sea of Hydras to the Innis Shoals.\n[From the back of the book]\n\nAn unofficial adaptation of the 1995 Fabled Lands book by Dave Morris and Jamie Thomson",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-wn764nzuit2wwpng-ifdb-import",
+          "title": "1",
+          "releaseYear": 2022,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/over-blood-dark-sea/releases/download/2022072901/bloodsea.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Over the Blood-Dark Sea\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-wn764nzuit2wwpng-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=wn764nzuit2wwpng&version=4. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid wn764nzuit2wwpng, track: free)."
+      ]
     }
   ]
 }
