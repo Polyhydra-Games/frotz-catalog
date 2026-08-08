@@ -282,10 +282,12 @@
               "artifactId": "ifdb-2752o3sh6y05ob1p-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=2752o3sh6y05ob1p&version=13. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/journey/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -494,10 +496,12 @@
               "artifactId": "ifdb-4h62dvooeg9ajtfa-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=4h62dvooeg9ajtfa&version=34. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/a%20mind%20forever%20voyaging/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -600,10 +604,12 @@
               "artifactId": "ifdb-6963a47vqgms8wi0-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=6963a47vqgms8wi0&version=15. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/the%20witness/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -653,10 +659,12 @@
               "artifactId": "ifdb-7epwz167lgruvm0u-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=7epwz167lgruvm0u&version=12. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/border%20zone/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -973,7 +981,7 @@
               "title": "Cover art",
               "sourceStatus": "missing",
               "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=buqppbknnwu4qtmg&version=15. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "provenance": "Reviewed and rejected: the retro_v2 title match (psx/rascal/boxart.png) is the unrelated PS1 platformer \"Rascal\" (Psygnosis/Traveller's Tales), not this IF title. Left sourceStatus:missing; needs a real source, not this candidate.",
               "spoilerLevel": "none"
             }
           ]
@@ -999,7 +1007,7 @@
       ],
       "story": {
         "tagline": null,
-        "synopsis": "More ghosts haunt the misty sea-coast and stone ramparts of Cornwall than anyplace else on earth. One such soul roams Tresyllian Castle: a pale phantom with flaxen hair and a luminous, flowing gown. It seems like a fanciful legend... until the spectral \"White Lady\" threatens the life of your friend Tamara! \n \nArriving at the fog-shrouded castle, you meet a cast of eccentric characters ranging from a blue-blood debutante to an overly helpful butler. Has one of them donned the ghostly guise of the White Lady? Or has the drowned lover of Lord Jack, Tamara's fiancé, returned to haunt her successor? Perhaps the spectre is seeking the valuable treasure hidden somewhere in the lavish rooms and secret passageways of the castle. The solution to the mystery, as well as the location of the treasure, changes in each of the four variations of Moonmist. \n \nGet ready to spend the night in a haunted castle. But don't sleep too soundly. The next victim might be you. \n \nDifficulty: Introductory",
+        "synopsis": "More ghosts haunt the misty sea-coast and stone ramparts of Cornwall than anyplace else on earth. One such soul roams Tresyllian Castle: a pale phantom with flaxen hair and a luminous, flowing gown. It seems like a fanciful legend... until the spectral \"White Lady\" threatens the life of your friend Tamara! \n \nArriving at the fog-shrouded castle, you meet a cast of eccentric characters ranging from a blue-blood debutante to an overly helpful butler. Has one of them donned the ghostly guise of the White Lady? Or has the drowned lover of Lord Jack, Tamara's fianc\u00e9, returned to haunt her successor? Perhaps the spectre is seeking the valuable treasure hidden somewhere in the lavish rooms and secret passageways of the castle. The solution to the mystery, as well as the location of the treasure, changes in each of the four variations of Moonmist. \n \nGet ready to spend the night in a haunted castle. But don't sleep too soundly. The next victim might be you. \n \nDifficulty: Introductory",
         "spoilerLevel": "none",
         "sourceStatus": "imported"
       },
@@ -1183,10 +1191,12 @@
               "artifactId": "ifdb-j8lmspy4iz73mx26-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=j8lmspy4iz73mx26&version=22. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/sherlock_%20the%20riddle%20of%20the%20crown%20jewels/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1236,10 +1246,12 @@
               "artifactId": "ifdb-jhbd0kja1t57uop-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=jhbd0kja1t57uop&version=19. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/the%20lurking%20horror/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1395,10 +1407,12 @@
               "artifactId": "ifdb-ouv80gvsl32xlion-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=ouv80gvsl32xlion&version=34. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/the%20hitchhiker%27s%20guide%20to%20the%20galaxy/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -1476,7 +1490,7 @@
       ],
       "story": {
         "tagline": null,
-        "synopsis": "A refurbished version of the work-in-progress, never-released Mini-Zork II found in Infocom's archives. Primarily restored by Torbjörn Andersson.\n\nCompared to the full game, the map and some of the puzzles have been simplified and much of the text has been shortened. The Bank of Zork and Oddly-angled rooms have been dropped completely, and the Wizard has lost a few of his spells.\n\nExpect the unexpected when you take on Zork II: The Wizard of Frobozz.\n\nAs you explore the subterranean realm of Zork, you'll continually be confronted with new surprises. Chief among these is the Wizard himself, who'll constantly endeavor to confound you with his capricious powers. But more than that, you'll face a challenge the likes of which you've never experienced before.",
+        "synopsis": "A refurbished version of the work-in-progress, never-released Mini-Zork II found in Infocom's archives. Primarily restored by Torbj\u00f6rn Andersson.\n\nCompared to the full game, the map and some of the puzzles have been simplified and much of the text has been shortened. The Bank of Zork and Oddly-angled rooms have been dropped completely, and the Wizard has lost a few of his spells.\n\nExpect the unexpected when you take on Zork II: The Wizard of Frobozz.\n\nAs you explore the subterranean realm of Zork, you'll continually be confronted with new surprises. Chief among these is the Wizard himself, who'll constantly endeavor to confound you with his capricious powers. But more than that, you'll face a challenge the likes of which you've never experienced before.",
         "spoilerLevel": "none",
         "sourceStatus": "imported"
       },
@@ -1968,10 +1982,12 @@
               "artifactId": "ifdb-yzzm4puxyjakk8c4-cover-art",
               "kind": "box-art",
               "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=yzzm4puxyjakk8c4&version=32. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/dos/zork%20ii/boxart.png",
+              "contentType": "image/png"
             }
           ]
         }
@@ -2155,7 +2171,7 @@
       ],
       "story": {
         "tagline": null,
-        "synopsis": "You are standing at the edge of a barren field. A steady wind, having secreted away the topsoil, is now drifting sandy dirt across the plain. A scant sign of life here is a freshly-burrowed molehill on the ground. \n\n> MAKE A MOUNTAIN OUT OF THE MOLEHILL \n\nThere is a tremendous rumbling in the distance, getting louder and louder, until it is deafening. The dirt around the molehill crumbles away as mighty, jagged granite peaks emerge from deep underground. The surrounding landscape transforms into a fertile valley before your very eyes. \n\nInfocom's first collection of short stories takes you to a place where nothing is quite as it seems. It's a place where you really can make a mountain out of a molehill, where \"the fur is flying\" is taken literally, and where a bow can be turned into a beau. \n\nEach of the eight stories in Nord and Bert Couldn't Make Head or Tail of It involves a different type of wordplay. You'll find yourself challenging your wits and your memory to come up with the clichés, spoonerisms, and other verbal trickeries needed to complete the puzzles. But don't view this as a hard row to hoe. Nord and Bert contains built-in hints, which you can call upon when the going gets rough. \n \nAll eight stories take place in the mixed-up town of Punster. However, no two contain the same people, locations, or objects. Each is played independently of the others, although you'll use passwords obtained in seven of the stories to get into the eighth. As for mapping, it's out of the window. You simply type where you want to go. \n \nThe tall tales in Nord and Bert are every bit as fun and clever as Infocom's other interactive fiction stories. They can each be completed in one sitting, making them a highly entertaining way to spend an evening, alone or with friends. Nord and Bert was authored by Jeff O'Neill, whose mind is constantly working on artful new turns of phrase.",
+        "synopsis": "You are standing at the edge of a barren field. A steady wind, having secreted away the topsoil, is now drifting sandy dirt across the plain. A scant sign of life here is a freshly-burrowed molehill on the ground. \n\n> MAKE A MOUNTAIN OUT OF THE MOLEHILL \n\nThere is a tremendous rumbling in the distance, getting louder and louder, until it is deafening. The dirt around the molehill crumbles away as mighty, jagged granite peaks emerge from deep underground. The surrounding landscape transforms into a fertile valley before your very eyes. \n\nInfocom's first collection of short stories takes you to a place where nothing is quite as it seems. It's a place where you really can make a mountain out of a molehill, where \"the fur is flying\" is taken literally, and where a bow can be turned into a beau. \n\nEach of the eight stories in Nord and Bert Couldn't Make Head or Tail of It involves a different type of wordplay. You'll find yourself challenging your wits and your memory to come up with the clich\u00e9s, spoonerisms, and other verbal trickeries needed to complete the puzzles. But don't view this as a hard row to hoe. Nord and Bert contains built-in hints, which you can call upon when the going gets rough. \n \nAll eight stories take place in the mixed-up town of Punster. However, no two contain the same people, locations, or objects. Each is played independently of the others, although you'll use passwords obtained in seven of the stories to get into the eighth. As for mapping, it's out of the window. You simply type where you want to go. \n \nThe tall tales in Nord and Bert are every bit as fun and clever as Infocom's other interactive fiction stories. They can each be completed in one sitting, making them a highly entertaining way to spend an evening, alone or with friends. Nord and Bert was authored by Jeff O'Neill, whose mind is constantly working on artful new turns of phrase.",
         "spoilerLevel": "none",
         "sourceStatus": "imported"
       },
