@@ -3320,6 +3320,102 @@
       "museumNotes": [
         "Promoted from frotz-catalog's IFDB import (tuid qel8teuugclcheaz, track: free)."
       ]
+    },
+    {
+      "slug": "ifdb-kszih8s6zhie1icf",
+      "title": "IYASHIKEI: The Fountain",
+      "sortTitle": "IYASHIKEI: THE FOUNTAIN",
+      "series": null,
+      "author": "Adam Sommerfield",
+      "firstPublishedYear": 2024,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Objective: Explore the island, collect a key item, fully explore everything to prompt relaxing descriptions and finally locate the area to SLEEP.\n\nIyashikei: The Fountain is a tranquil and soothing interactive fiction game that transports players into a serene, meditative experience. Inspired by the Iyashikei genre and the calming narratives of sleep stories, this game is designed to be a brief but deeply relaxing journey. The setting is a mystical island with a magical fountain at its heart, encouraging players to explore and appreciate the beauty of the natural world around them.\n\nPlayers are invited to embark on a calming journey across a serene lake to a mystical island. The game's primary focus is on exploration and mindfulness, encouraging players to immerse themselves in the environment and take in the tranquil atmosphere.\n\nCommands and Interactions:\n\nThe typical commands are coded into this game, but to emphasise some of the things the Player can try:\nLOOK / EXAMINE: Investigate various elements of the environment. For example, looking at the lake reveals a peaceful, reflective surface, while examining the clouds shows them drifting lazily across the sky.\nLISTEN: Engage with the natural soundscape of the island. Listening might reveal the gentle rustling of leaves, the melodic chirping of birds, or the soft, rhythmic lapping of water against the shore.\nMEDITATE: Take a moment to sit down, close your eyes, and breathe deeply. This command helps players immerse themselves in the peaceful surroundings, easing their minds and filling their hearts with tranquility.\nBREATHE: Focus on deep, calming breaths. This action enhances the meditative experience, allowing players to feel the fresh air and the delicate fragrance of blooming wildflowers.\nSLEEP: Not your typical command, but in this simulation your end goal is to rest for the night in the perfect location (you'll know when you find it!)\n\nEnvironment:\n\nThe island is depicted in text descriptions with soft golden sands, lush greenery, and vibrant wildflowers. Each area, from the lake shore to the clearing with the magical fountain, is detailed with a soothing, evocative description that brings the tranquil setting to life.\n\nRecommended Approach:\n\nFor the best experience, players should take their time to examine everything. The game's charm lies in the detailed descriptions and the calming atmosphere they create.\n\nIyashikei: The Fountain is designed to be a 7-minute meditative experience. Players are encouraged to explore and interact with the environment in a leisurely manner to gain the most benefit from its calming narrative and serene setting.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-kszih8s6zhie1icf-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 2024,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Freeware IFDB title with no stable direct-download URL: it is distributed only via https://adamsommerfield.itch.io/iyashikei-the-fountain, which gates its download behind an itch.io session/claim flow (even for free games). frotz-catalog does not script around that gate. An operator who wants to supply their own copy should download it manually from that page.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-kszih8s6zhie1icf.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-kszih8s6zhie1icf-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=kszih8s6zhie1icf&version=3. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid kszih8s6zhie1icf, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-sjiowm1bb9jnjfpa",
+      "title": "A Potion Labeled 'Time'",
+      "sortTitle": "POTION LABELED 'TIME', A",
+      "series": null,
+      "author": "Finn Fabish",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "You wake up with your brain in a foggy haze. Where have you been the past few days? You don't seem to remember.\n\nYou find that you're in an ugly room with an ugly door and an ugly mailbox with an ugly key laying on the ugly floor.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-sjiowm1bb9jnjfpa-ifdb-import",
+          "title": "1",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Freeware IFDB title with no stable direct-download URL: it is distributed only via https://ffabish.itch.io/a-potion-labeled-time, which gates its download behind an itch.io session/claim flow (even for free games). frotz-catalog does not script around that gate. An operator who wants to supply their own copy should download it manually from that page.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-sjiowm1bb9jnjfpa.dat"
+          },
+          "artifacts": []
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid sjiowm1bb9jnjfpa, track: byog)."
+      ]
     }
   ]
 }
