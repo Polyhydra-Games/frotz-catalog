@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updated": "2026-06-30",
+  "updated": "2026-08-10",
   "catalogScope": {
     "canonicalInfocomWorks": 35,
     "supplementaryWorks": 9,
@@ -8218,6 +8218,3331 @@
       ],
       "museumNotes": [
         "Metadata and checksums only; no proprietary story binary is stored in this repository."
+      ]
+    },
+    {
+      "slug": "ifdb-0dbnusxunq7fw5ro",
+      "title": "Zork I",
+      "sortTitle": "ZORK I",
+      "series": "Zork",
+      "author": "Marc Blank and Dave Lebling",
+      "firstPublishedYear": 1980,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Many strange tales have been told of the fabulous treasure, exotic creatures, and diabolical puzzles in the Great Underground Empire. As an aspiring adventurer, you will undoubtedly want to locate these treasures and deposit them in your trophy case.\n[--blurb from The Z-Files Catalogue]",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-0dbnusxunq7fw5ro-ifdb-import",
+          "title": "Release 1",
+          "releaseYear": 1980,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#zork1 (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-0dbnusxunq7fw5ro.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-0dbnusxunq7fw5ro-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=0dbnusxunq7fw5ro&version=45. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 0dbnusxunq7fw5ro, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-0zw9qi3dm1a0ziap",
+      "title": "Dark Pit",
+      "sortTitle": "DARK PIT",
+      "series": null,
+      "author": "Andy Kosela",
+      "firstPublishedYear": 2026,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "You remember the red night in fragments: the reek of wine, the clash of bronze cups, and the laughter of thieves beneath the smoke-black rafters of the Wolf's Jaw.\n\nA woman with eyes like wet jet had sold you a map to the buried vaults of old Khoraz, where kings before history sealed their tribute under stone and curse. You followed it through alleys foul with mist, and there the city watch came on you like hounds. Steel flashed. Men died. Then a club, black and sudden as doom, broke the world into sparks.\n\nYou woke with blood dried in your hair and iron on your wrists. They named you murderer, grave-robber, and spy, though the dead had drawn first. By dawn they flung you into this pit below the keep, where the stones sweat and rats whisper in the straw.\n\nYet the map is not lost. Its last sign burns in your memory: a black shrine beneath the prison, and a jewel men called the Night-Eye. If the gods have not spat you out entirely, you may yet break your chains, find the jewel, and carve a road back to the moonlit world.\n\n---\n\nDarkZIL is a compact ZIL-based framework for building old-school Infocom-style text adventure games targeting Atari 8-bit systems and other Z-machine interpreters. It provides a small, conservative foundation for parser commands, room navigation, inventory, objects, conversations, combat, attributes, dice handling, and classic adventure mechanics while keeping the code simple enough for constrained 8-bit targets. The included demo adventure, DarkPit, shows how DarkZIL can be used in practice to create a playable sword-and-sorcery dungeon game with puzzles, NPCs, RPG-style attributes, and Atari-friendly Z3 compatibility.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-0zw9qi3dm1a0ziap-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 2026,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial or unverified-license IFDB title (license: unset). frotz-catalog does not host or reference a story-file source for this entry. Operators must mount their own legally-owned copy at the documented filename via FROTZ_STORY_DIR.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-0zw9qi3dm1a0ziap.dat"
+          },
+          "artifacts": []
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 0zw9qi3dm1a0ziap, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-17coplfu323xif76",
+      "title": "Zork Zero: The Revenge of Megaboz",
+      "sortTitle": "ZORK ZERO: THE REVENGE OF MEGABOZ",
+      "series": "Zork",
+      "author": "Steve Meretzky",
+      "firstPublishedYear": 1988,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "The Great Underground Empire is in its heyday. Upscale condos crowd the massive caverns. Subterranean highways stretch from Aragain to the Fublio Valley. And no adventurer has yet set foot in the open field west of the white house. \n \nBut now both town and countryside are being abandoned, their inhabitants fleeing in the wake of a dread wizard's curse. The curse has already disposed of the royal Flathead family. It threatens to destroy the whole kingdom - unless you can stop it. \n\nYour quest will take you to every corner of the empire, as you seek out objects ranging from the absurd to the sublime. The quixotic jester will test you with games, riddles, and tricks. And the immense Flathead palace and its environs offer a multitude of surprises. \n \nZork Zero combines the best of the legendary Zorkian universe with the latest technology in interactive storytelling. It has all the richness and depth you expect from Infocom interactive fiction. Author Steve Meretzky, whose award-winning stories include Planetfall, The Hitchhiker's Guide to the Galaxy, and Leather Goddesses of Phobos, lends his characteristic whimsy to the tale.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-17coplfu323xif76-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1988,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#zork0 (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-17coplfu323xif76.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-17coplfu323xif76-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/zork%20zero_%20the%20revenge%20of%20megaboz/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 17coplfu323xif76, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-2752o3sh6y05ob1p",
+      "title": "Journey",
+      "sortTitle": "JOURNEY",
+      "series": null,
+      "author": "Marc Blank",
+      "firstPublishedYear": 1989,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Have you mettle enough to make siege on the Dread Lord himself? ...We shall see. \n\n If you've ever been spellbound by a fantasy story, captivated by a role playing game, or enthralled by interactive fiction, Journey will rouse your imagination to new heights. \n\n Join us in our Journey. Travel beyond the known boundaries of interactive software into a new world of computer storytelling. Marc Blank - the pioneering co-author of the enormously popular Zork and Enchanter trilogies - weaves a fabulous tale of great adventure, drawing from the highest art of storytelling and the excitement of role playing games to create a fascinating new kind of computer entertainment. \n\n In Journey, you become part of a mesmerizing epic created in the tradition of J. R. R. Tolkien's The Lord of the Rings. For five long years, failed crops, tainted water, and sickness have blighted a peaceful land. Brave villagers have set forth to find relief for their suffering region, but none have returned. Now, yet another small band is preparing the begin the odyssey. You'll share the adventures of Tag, Praxix, Bergon, Esher, and Minar as they solve puzzles, overcome obstacles, explore unknown lands. \n\n Pass into the world of Journey with ease. The game is simple to learn: your challenge lies in choosing the right path, casting the best spell, and knowing whether to lie or tell the truth. Your imagination will be taxed more and more with each passing day as the difficulties become increasingly complex. \n \nAs the tale unfolds, you become acquainted with the characters and their personalities. Each character acts on his own, sometimes advancing the quest, sometimes hindering it. You help them decide where to explore and what actions to take, taking part in their strategies and problem-solving. \n\n The intrigue of a masterfully told story. The thrill of being a part of a great adventure. The challenge of leading the tale to its climactic conclusion. This is what makes Journey a uniquely compelling entertainment.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-2752o3sh6y05ob1p-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1989,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#journey (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-2752o3sh6y05ob1p.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-2752o3sh6y05ob1p-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/journey/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 2752o3sh6y05ob1p, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-33vo6hneh99pjd41",
+      "title": "Milliways: the Restaurant at the End of the Universe",
+      "sortTitle": "MILLIWAYS: THE RESTAURANT AT THE END OF THE UNIVERSE",
+      "series": null,
+      "author": "Max Fog",
+      "firstPublishedYear": 2023,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "In Milliways: The Restaurant at the End of the Universe, every step you take has an equal probability of sending you over the edge of perilous cliff drops or spinning into the stratosphere. But before that all happens, you have a choice: should you hitchhike the galaxy, or stay home and drink beer?\n\nOh, right. That was in the first game.\n\nAs this game begins, you find yourself on the ramp leading from the hatchway down to the surface of the legendary lost planet of Magrathea. Soon, you will find yourself exploring dead planets, escaping white mice, navigating the fjords of Norway, and of course - at Milliways, the Restaurant at the End of the Universe!",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-33vo6hneh99pjd41-ifdb-import",
+          "title": "3.04",
+          "releaseYear": 2023,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#restaurant (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-33vo6hneh99pjd41.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-33vo6hneh99pjd41-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=33vo6hneh99pjd41&version=22. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 33vo6hneh99pjd41, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-3p9fdt4fxr2goctw",
+      "title": "Leather Goddesses of Phobos",
+      "sortTitle": "LEATHER GODDESSES OF PHOBOS",
+      "series": "Leather Goddesses of Phobos",
+      "author": "Steve Meretzky",
+      "firstPublishedYear": 1986,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "And now... the next exciting episode of humanoids in space! \n\nHow did you, a regular at Joe's Bar in Upper Sandusky, Ohio, end up on a Martian moon? Can you prevent the hideous space creature from abducting the naked heiress? Why does scratch 'n' sniff no. 2 smell so familiar? How many uses can you find for a rubber hose? Is it easy to remove a brass bikini? Is it hard to outsmart a robotoid sumo wrestler? Can you stop the Leather Goddesses' fiendish plan to turn all Earthlings into sex slaves? \n \nLearn the answers to these burning questions in Leather Goddesses of Phobos, Infocom's racy spoof of 1930s pulp fiction. But first, a word from our sponsor: \n Why put up with only one playing mode, when you can have three? That's right, three! So whether your tastes run to Tame, Suggestive, or Lewd, Leather Goddesses of Phobos can satisfy you! \n \nDifficulty: Standard",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-3p9fdt4fxr2goctw-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1986,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#leathergoddesses (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-3p9fdt4fxr2goctw.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-3p9fdt4fxr2goctw-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/leather%20goddesses%20of%20phobos/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 3p9fdt4fxr2goctw, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-4ao65o1u0xuvj8jf",
+      "title": "Cutthroats",
+      "sortTitle": "CUTTHROATS",
+      "series": null,
+      "author": "Michael Berlyn, Jerry Wolper",
+      "firstPublishedYear": 1984,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "You're about to get yourself into very deep trouble.\n \nYou're a backwater island's top diver and foremost expert on local shipwrecks. Which makes you perfect for the job a band of the island's shadiest characters has in mind for you. It's a simple business proposition: all you have to do is locate and salvage a fortune in sunken treasure. You stand to gain millions. The only drawback is, it could cost you your neck. Because to successfully recover the treasure, you'll have to survive the perils of diving in unknown waters - and the even greater danger of an untrustworthy crew. But none of that will stop you from taking the plunge. You're the type who believes that when stakes are this high, even when your odds are this low, it's worth running the risks of dealing with Cutthroats. \n\nDifficulty: Standard.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-4ao65o1u0xuvj8jf-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1984,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#cutthroats (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-4ao65o1u0xuvj8jf.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-4ao65o1u0xuvj8jf-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/cutthroats/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 4ao65o1u0xuvj8jf, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-4h62dvooeg9ajtfa",
+      "title": "A Mind Forever Voyaging",
+      "sortTitle": "MIND FOREVER VOYAGING, A",
+      "series": null,
+      "author": "Steve Meretzky",
+      "firstPublishedYear": 1985,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "\"If you can look into the seeds of time, and say which grain will grow and which will not...\"\n--Shakespeare\n\nIt's 2031. The world is on the brink of chaos. In the United States of North America, spiraling crime and unemployment rates, decayed school systems and massive government regulations have led to a lazy, contentious society.\n\nTo reverse this critical situation, government and industry leaders have developed a Plan combining the economic freedom and strong moral values of the 1950's with the technological advancements of the 21st century. Will the Plan ensure peace and prosperity? Or will it set the earth on a suicide course to destruction?\n\nAs the world's first conscious, intelligent computer, only you can visit places that have never been seen before. Only you can view the future. And only you know what must be done to save humanity.\n\nA major departure for Infocom, A Mind Forever Voyaging is reminiscent of such classic works of science fiction as Brave New World and 1984. You'll spend less time solving puzzles, as you explore realistic worlds of the future.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-4h62dvooeg9ajtfa-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1985,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#amfv (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-4h62dvooeg9ajtfa.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-4h62dvooeg9ajtfa-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/a%20mind%20forever%20voyaging/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 4h62dvooeg9ajtfa, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-56wb8hflec2isvzm",
+      "title": "Seastalker",
+      "sortTitle": "SEASTALKER",
+      "series": null,
+      "author": "Stu Galley, Jim Lawrence",
+      "firstPublishedYear": 1984,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "There's something down there in the ocean, something terrifying. And you have to face it - because only you can save the Aquadome, the world's first undersea research station. \n \nThe alarm sounds and your submarine, the Scimitar, is docked nearby. But not so fast - you haven't even tested the Scimitar in deep water, and the crew at the Aquadome may have a traitor in its ranks. So be careful! You have many possibilities to consider, mysteries to unravel and life-and-death decisions to make! \n \nSuccess won't come easily. It may not come at all - because, if you challenge the deep without using all your wits, you just might wind up as shark bait! \n\nDifficulty: Junior",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-56wb8hflec2isvzm-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1984,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#seastalker (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-56wb8hflec2isvzm.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-56wb8hflec2isvzm-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/seastalker/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 56wb8hflec2isvzm, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-6963a47vqgms8wi0",
+      "title": "The Witness",
+      "sortTitle": "WITNESS, THE",
+      "series": null,
+      "author": "Stu Galley",
+      "firstPublishedYear": 1983,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "February 1938, Los Angeles. FDR's New Deal is finally rolling. Hitler's rolling, too; this time through Austria. But as Chief Detective for a quiet burgh on the outskirts of L.A., you've got other fish to fry. \n\nOne gilt-edged society dame is dead. And now it looks like some two-bit grifter is putting the screws to her multi-millionaire old man. Then you step in, and the shakedown turns ugly. You're left with a stiff and race against the clock to nail your suspect... unless you get nailed first! \n\nNobody said a sordid family affair like this was going to be a cinch. Everyone from the knock-out heiress to the poker-faced butler may end up in the slammer before it's over. Ahead of you is a Gordian knot of motives and alibis. And the only testimony you can trust is that of your own eyes - because you are The Witness. \n\nDifficulty: Standard",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-6963a47vqgms8wi0-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1983,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#witness (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-6963a47vqgms8wi0.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-6963a47vqgms8wi0-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/the%20witness/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 6963a47vqgms8wi0, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-7epwz167lgruvm0u",
+      "title": "Border Zone",
+      "sortTitle": "BORDER ZONE",
+      "series": null,
+      "author": "Marc Blank",
+      "firstPublishedYear": 1987,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Where the Iron Curtain divides East and West, the frontier is a no man's land between freedom and captivity, a place where moments lost or precautions not taken exact a toll in men's lives. In Border Zone, you cross this barrier not once, but three times, as three different characters in a fast-paced story of international intrigue. \n\nThe pulse-pounding tension of espionage is heightened by the addition of real time, which ticks on regardless of your actions. As you race against the clock to complete your missions, you'll find yourself caught up in a spine-tingling adventure that's far more suspenseful than any spy thriller you've ever read. \n\nThe story begins on the train to Litzenburg, a peaceful country just outside the Iron Curtain. In the border town of Ostnitz, Constitution Day festivities include a speech by the American ambassador. But plans are afoot to destabilize this key neutral territory by assassinating the diplomat. Speeding towards the border through the Eastern bloc country of Frobnia are an easy-going American businessman, an ambitious young American spy, and a ruthless KGB agent. All three are soon to be entangled in the assassination plot, their lives intertwining as each carries out his perilous assignment. \n\nYou'll see the story from three viewpoints, as you step into the shoes of a different major character in each of the three chapters of Border Zone. Set in separate locations on or near the border, the chapters are complete stories in themselves, each with its pwn riveting conclusion. \n\nThe on-line hints in Border Zone will help you out when you need it. But hints take you only so far. Even when you know exactly what to do, discretion and timing are crucial as you outwit the KGB, evade a snarling pack of search dogs, make a desperate assault on the border, and count down the moments to the assassination. \n\nBorder Zone was written by Marc Blank, a pioneer in interactive fiction and the author of such ground-breaking works as Zork and Deadline. In Border Zone, Marc takes the clever plotting and masterly prose of a top-notch thriller, brings it to life through interactive fiction, and intensifies the experience with the addition of real time. \n\nSo steel your nerves, and don't blow your cover, friend. You've a long way to go before you come in from the cold.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-7epwz167lgruvm0u-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1987,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#borderzone (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-7epwz167lgruvm0u.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-7epwz167lgruvm0u-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/border%20zone/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 7epwz167lgruvm0u, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-9h6o1charof548ii",
+      "title": "Beyond Zork",
+      "sortTitle": "BEYOND ZORK",
+      "series": "Zork",
+      "author": "Brian Moriarty",
+      "firstPublishedYear": 1987,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Dread times have befallen the Kingdom of Quendor. The wizards have mysteriously disappeared. The Enchanter's Guild Hall lies in ruins. Villages are abandoned, drunken men mutter strange tales, and vicious monsters haunt the streets and wastelands. Now it falls to you, a lowly peasant, to unravel the meaning behind these ominous events. Will you accept the challenge? \n\nOf course you will. For you're a hardy adventurer, ready to confront the most fearsome foe. And in Beyond Zork, you have an arsenal of new weapons and abilities at your disposal. \n\nYou start by designing your own character. Choose from such diverse attributes as strength, endurance, compassion, and luck, or let the computer select for you. As you venture onward, your character will evolve, reflecting your success in your quest.\n\nBeyond Zork's sophisticated new interface makes interaction more natural than ever. In the heat of battle, the special function keys let you strike the decisive blow with a single keystroke. There's even an on-screen map to chart your progress! \n\nAs you grow in experience and abilities, you realize that you're being prepared for a great task, a task of which you know nothing... as yet. Your search for the answer will lead you deep underground, where unspeakable monsters guard the world's most fabulous treasure - the fabled Coconut of Quendor. \n\nBeyond Zork was written by Brian Moriarty, award-winning author of Wishbringer and Trinity. Fans of Infocom's fantasy series will recognise characters and locations from previous stories, while old and new players alike will enjoy exploring the Zorkian landscape as their challenge increases and their character grows in strength and power.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-9h6o1charof548ii-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1987,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#beyondzork (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-9h6o1charof548ii.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-9h6o1charof548ii-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/beyond%20zork/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 9h6o1charof548ii, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-9nlbhqnlyb169uge",
+      "title": "Stationfall",
+      "sortTitle": "STATIONFALL",
+      "series": "Planetfall series",
+      "author": "Steve Meretzky",
+      "firstPublishedYear": 1987,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "What a trotting krip! Since your incredible heroics in Planetfall, where you risked life and limb to save the planet Resida, things have hardly changed at all. Sure, you were promoted to Lieutenant First Class, but this only meant that your dull life of cleaning grotch cages was replaced by an equally dull life of paperwork. Now you've got another assignment tailor-made for a grotchbrain: pilot a spacetruck to a nearby station to pick up a load of trivial forms. Trot and doublt trot! \n But all is not lost. By a happy twist of fate, your companion for the journey is your old pal Floyd! That's right, it's the same mischievous little robot, crayons and paddleball at the ready, who was your helpful buddy in Planetfall. \nGetting to the space station is easy. But once there, you find it strangely deserted. Even the seedy space village surrounding the station is missing its ragtag tenants. A spooky alien ship carrying only an empty pedestal rests in a docking bay. An ostrich and an Arcturian balloon creature are found, abandoned but in perfect health. The commander's log describes the mysterious breakdown of machiner, demonstrated by a roving hull-welder who seems bent on your destruction. And finally even Floyd begins acting oddly... \n \nSteve Meretzky, whose interactive fiction successes include The Hitchhiker's Guide to the Galaxy and Leather Goddesses of Phobos, won a Best Computer Software Designer award for Planetfall. Infocom fans, consistently rating Planetfall among their favorite computer games, have been begging for a sequel. Even if you've never played Planetfall, you will enjoy Stationfall: the puzzles will challenge your intellect, the humor will keep you laughing, and Floyd will win your heart.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-9nlbhqnlyb169uge-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1987,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#stationfall (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-9nlbhqnlyb169uge.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-9nlbhqnlyb169uge-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/stationfall/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 9nlbhqnlyb169uge, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-anu79a4n1jedg5mm",
+      "title": "Infidel",
+      "sortTitle": "INFIDEL",
+      "series": null,
+      "author": "Michael Berlyn",
+      "firstPublishedYear": 1983,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Infidel finds you marooned by your followers in the heart of the deadly Egyptian Desert. A soldier of fortune by trade, you've come hither in search of a great lost pyramid and its untold riches. Now, alone, you must locate and gain entry to the tomb, decipher its hieroglyphics and unravel its mysteries one by one.\n\nThrough the Antechamber, the Barge Room, the Chamber of Ra, death will lick at your heels as you race to the shattering climax of this match of wits between you and the most ingenious architects, builders and murderers of all time - the ancient Egyptians. \n \nDifficulty: Advanced",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-anu79a4n1jedg5mm-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1983,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#infidel (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-anu79a4n1jedg5mm.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-anu79a4n1jedg5mm-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/infidel/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid anu79a4n1jedg5mm, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-apm4h7hyglopbcg",
+      "title": "Bright Brave Knight Knave",
+      "sortTitle": "BRIGHT BRAVE KNIGHT KNAVE",
+      "series": "Prime Pro-Rhyme Row",
+      "author": "Andrew Schultz",
+      "firstPublishedYear": 2023,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "Z-code",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Friends, for ends, or mends (more).\n\nSixth in my Prime Pro-Rhyme Row series, though it is fully independent of the others.\n\nOption to skip one room with an off-color name and bonus puzzle.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-apm4h7hyglopbcg-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 2023,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial or unverified-license IFDB title (license: unset). frotz-catalog does not host or reference a story-file source for this entry. Operators must mount their own legally-owned copy at the documented filename via FROTZ_STORY_DIR.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-apm4h7hyglopbcg.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-apm4h7hyglopbcg-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=apm4h7hyglopbcg&version=6. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid apm4h7hyglopbcg, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-b0i6bx7g4rkrekgg",
+      "title": "Ballyhoo",
+      "sortTitle": "BALLYHOO",
+      "series": null,
+      "author": "Jeff O'Neill",
+      "firstPublishedYear": 1985,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Spangleland! Sawdust and glitter, buffoons and cotton candy! It's a place where your wildest dreams come true! At least, that's what you think... until you get behind the scenes at the big top. Then you learn how easily sweet dreams can turn into nightmares.\n\nBeyond the spangles lies a seedy world of deception and crime. Exploring the tattered corners of the circus lot, you overhear a conversation about the owner's daughter. It seems she's been kidnapped, and the hired gumshoe couldn't find the nose on his face. Good samaritan that you are, you start poking around on your own.\n\nBut watch your step. As the night progresses, you realize you're in as much danger as the little girl. For the kidnapper is lurking right there on the lot, trying to set you up for a permanent slot in the freak show.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-b0i6bx7g4rkrekgg-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1985,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#ballyhoo (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-b0i6bx7g4rkrekgg.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-b0i6bx7g4rkrekgg-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/ballyhoo/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid b0i6bx7g4rkrekgg, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-buqppbknnwu4qtmg",
+      "title": "Rascal",
+      "sortTitle": "RASCAL",
+      "series": null,
+      "author": "Tara McGrew",
+      "firstPublishedYear": 2026,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "A roguelike with color ZSCII \"graphics\" and brief parser-IF sections. The player navigates 25 floors of a random procedurally-generated dungeon, searching for treasure, identifying potions, and fighting monsters.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-buqppbknnwu4qtmg-ifdb-import",
+          "title": "6",
+          "releaseYear": 2026,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial or unverified-license IFDB title (license: unset). frotz-catalog does not host or reference a story-file source for this entry. Operators must mount their own legally-owned copy at the documented filename via FROTZ_STORY_DIR.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-buqppbknnwu4qtmg.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-buqppbknnwu4qtmg-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "Reviewed and rejected: the retro_v2 title match (psx/rascal/boxart.png) is the unrelated PS1 platformer \"Rascal\" (Psygnosis/Traveller's Tales), not this IF title. Left sourceStatus:missing; needs a real source, not this candidate.",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid buqppbknnwu4qtmg, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-c66u816v8kx2jzm2",
+      "title": "Moonmist",
+      "sortTitle": "MOONMIST",
+      "series": null,
+      "author": "Stu Galley, Jim Lawrence",
+      "firstPublishedYear": 1986,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "More ghosts haunt the misty sea-coast and stone ramparts of Cornwall than anyplace else on earth. One such soul roams Tresyllian Castle: a pale phantom with flaxen hair and a luminous, flowing gown. It seems like a fanciful legend... until the spectral \"White Lady\" threatens the life of your friend Tamara! \n \nArriving at the fog-shrouded castle, you meet a cast of eccentric characters ranging from a blue-blood debutante to an overly helpful butler. Has one of them donned the ghostly guise of the White Lady? Or has the drowned lover of Lord Jack, Tamara's fiancé, returned to haunt her successor? Perhaps the spectre is seeking the valuable treasure hidden somewhere in the lavish rooms and secret passageways of the castle. The solution to the mystery, as well as the location of the treasure, changes in each of the four variations of Moonmist. \n \nGet ready to spend the night in a haunted castle. But don't sleep too soundly. The next victim might be you. \n \nDifficulty: Introductory",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-c66u816v8kx2jzm2-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1986,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#moonmist (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-c66u816v8kx2jzm2.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-c66u816v8kx2jzm2-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/moonmist/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid c66u816v8kx2jzm2, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-ddagftras22bnz8h",
+      "title": "Plundered Hearts",
+      "sortTitle": "PLUNDERED HEARTS",
+      "series": null,
+      "author": "Amy Briggs",
+      "firstPublishedYear": 1987,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "In the 17th century, the seas are as wild as the untamed heart of a young woman. But when you set out on the schooner Lafond Deux, bound for the West Indies, your thoughts are only of your ailing father who awaits your care. Little do you know that your innocent journey will soon turn to dangerous adventure. \n You barely survive an encounter with pirates, whose plans for you include a fate worse than death. The explosives, the rocky reefs, the vicious crocodile - all these are obstacles which you must overcome with cunning and agility. True, it's not easy; but at least you can control your fate. What you cannot control is much more dangerous: your passion for Nicholas Jamison, the handsome pirate captain. \n \nTall and lean, with azure eyes that penetrate deep into your soul, he makes your blood quicken despite his unsavory past. When you're in his arms, swirling around the dance floor or secluded in the flowered depths of the gazebo, you are apt to forget your mission. \n\nBut don't dally too long with Nick. For your father is waiting, and on his rescue lies the fate of more than one man. Prepare for adventure on the high seas, lass. You'll need every bit of pluck you can muster. \n\nIn Plundered Hearts, Infocom brings your wildest fantasies to life. You'll throll to spine-tingling peril, heart-pounding romance, and challenging predicaments. To create this exotic adventure, author Amy Briggs read hundreds of romance novels, researched 17th century costumes and ships, and was wooed by a dashing pirate.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-ddagftras22bnz8h-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1987,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#plunderedhearts (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-ddagftras22bnz8h.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-ddagftras22bnz8h-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/plundered%20hearts/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid ddagftras22bnz8h, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-j18kjz80hxjtyayw",
+      "title": "Trinity",
+      "sortTitle": "TRINITY",
+      "series": null,
+      "author": "Brian Moriarty",
+      "firstPublishedYear": 1986,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "You're neither an adventurer nor a professional thrill-seeker. You're simply an American tourist in London, enjoying a relaxing stroll through the famous Kensington Gardens. When World War III starts and the city is vaporized moments after the story begins, you have no hope of survival. \n\nUnless you enter another time, another place, another dimension.\n\nEscaping the destruction of London is not the end of your problems, but rather the beginning of new, more bizarre riddles. You'll find yourself in an exotic world teeming with giant fly traps, strange creatures, and other inconveniences. Time and space will behave with their own intricate and mischievous logic. You'll visit fantastic places and acquire curious objects as you seek to discover the logic behind your newfound universe. \n\nAnd if you can figure out the patter of events, you'll wind up in the New Mexico desert, minutes before the culmination of the greatest scientific experiment of all time: the world's first atomic explosion, code-named Trinity.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-j18kjz80hxjtyayw-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1986,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#trinity (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-j18kjz80hxjtyayw.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-j18kjz80hxjtyayw-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/trinity/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid j18kjz80hxjtyayw, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-j8lmspy4iz73mx26",
+      "title": "Sherlock: The Riddle of the Crown Jewels",
+      "sortTitle": "SHERLOCK: THE RIDDLE OF THE CROWN JEWELS",
+      "series": null,
+      "author": "Bob Bates",
+      "firstPublishedYear": 1987,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Moriarty has set a deadly trap for Sherlock Holmes. And only you can stop him... \n\nTravel back in time to Victorian London, where the city is bustling with preparations for Her Majesty's Golden Jubilee. Crowds of sightseers and souvenir vendors fill the streets in eager anticipation of the Jubilee Week events. Newspapers detail the gala array of festivities. Sumptuous receptions for foreign dignitaries. Special services at Westminster Abbey. A Royal Procession through the streets of London. And the Queen reigning over all, resplendent in the Crown Jewels. \n\nAt least, that's the official plan. Unbeknownst to the celebrants thronging the city, a crisis has arisen: the Crown Jewels have been stolen from the Tower of London. If they're not recovered before the festivities begin, the theft will be exposed and the government will fall into international disgrace. \n\nOnly 48 hours remain to solve the crime. With Scotland Yard failing to make headway, the Prime Minister calls on Sherlock Holmes, the famous consulting detective. But riddles left at the scene of the crime include a direct challenge to Holmes, who suspects a deadly trap. To throw the scoundrel off his guard, Holmes turns the investigation over to you, his trusted cohort, Dr. Watson. \n\nWith Holmes by your side, you use your wits, intuition, and a myriad of clues to solve the riddles and piece together the mystery. Your search for the jewels and the villain leads you all over London, from the most popular tourist attractions to the seediest back alleys. As Big Ben strikes each successive hour and dangerous complications impede your progress, you realize you're facing that most dastardly of foes, Holmes's archnemesis... the vile Professor Moriarty. \n\nSherlock: The Riddle of the Crown Jewels is the first story in Infocom's new Immortal Legends series, developed by Challenge, Inc. Using Infocom's sophisticated development tools, Challenge lends its own brand of puzzles and plotting to interactive fiction. In The Riddle of the Crown Jewels, author Bob Bates brings Holmes's London to life, filling it with familiar characters and locations. On-screen hints provide clues when your magnifying glass falls short of the task. \n\nAnd now, come, Watson! The game is afoot...",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-j8lmspy4iz73mx26-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1987,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#sherlock (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-j8lmspy4iz73mx26.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-j8lmspy4iz73mx26-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/sherlock_%20the%20riddle%20of%20the%20crown%20jewels/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid j8lmspy4iz73mx26, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-jhbd0kja1t57uop",
+      "title": "The Lurking Horror",
+      "sortTitle": "LURKING HORROR, THE",
+      "series": null,
+      "author": "Dave Lebling",
+      "firstPublishedYear": 1987,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "A winter night at the G.U.E. tech campus with most students away on vacation serves as the backdrop for this tale of Lovecraftian horror.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-jhbd0kja1t57uop-ifdb-import",
+          "title": "221",
+          "releaseYear": 1987,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#lurkinghorror (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-jhbd0kja1t57uop.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-jhbd0kja1t57uop-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/the%20lurking%20horror/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid jhbd0kja1t57uop, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-jnfkbgdgopwfqist",
+      "title": "Hollywood Hijinx",
+      "sortTitle": "HOLLYWOOD HIJINX",
+      "series": null,
+      "author": "Dave Anderson, Liz Cyr-Jones",
+      "firstPublishedYear": 1986,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Vampire Penguins. A Corpse Line. Meltdown on Elm Street. Who could forget these classic Hollywood movies produced by your uncle, Buddy Burbank? But his greatest masterpiece has yet to be experienced... Hollywood Hijinx, starring you! \n\n Your Uncle Buddy and Aunt Hildegarde have passed away, but their memory lives on in their Malibu mansion, filled with a lifetime of Hollywood memorabilia. And you've inherited it all, with one stipulation - you can only claim your booty if you find the treasures hidden throughout the sprawling beachfront estate. If you can't find the treasures in one night, you lose the whole caboodle. \n\n It's just the sort of thing you'd expect from Aunt Hildegarde and Uncle Buddy. And their home is familiar territory: you spent your childhood summers there with your Cousin Herman. Although some say the house is haunted, you're not fooled. You know that Uncle Buddy, who wore a different polyester leisure suit each day of the week, was always rigging the place with goofy gags and booby traps. \n\n Inside the house, everything is just as glitzy and full of fun as you remember it to be. There's the luxurious private screening room, the gold-plated bathroom faucets in the shape of Oscars, and the wacky props from old Buddy Burbank movies. \n\n The Malibu estate seems like a funhouse at first. But the puzzles you must solve prove that Aunt Hildegarde and Uncle Buddy weren't just kidding around. Claiming the Burbank bundle turns out to be quite a challenge - and it's all in your honor. \n\n Hollywood Hijinx is as zany as its author, \"Hollywood\" Dave Anderson. It's cram-packed with puzzles that will test the wits and tickle the ribs of both first time and experienced players. \n\n Difficulty: Standard",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-jnfkbgdgopwfqist-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1986,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#hollywoodhijinx (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-jnfkbgdgopwfqist.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-jnfkbgdgopwfqist-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/hollywood%20hijinx/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid jnfkbgdgopwfqist, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-lidg5nx9ig0bwk55",
+      "title": "Sorcerer",
+      "sortTitle": "SORCERER",
+      "series": "The Enchanter series",
+      "author": "Steve Meretzky",
+      "firstPublishedYear": 1984,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Sorcerer, the second of a spellbinding fantasy series in the tradition of Zork, takes you on a magical tour through the darker side of Zorkian enchantment. Your journey begins with a cryptic diary - the last trace of the now-vanished Belboz the Necromancer, grand and powerful leader of the Guild of Enchanters. It is feared that Belboz is in thrall to evil sorcery. If so, the very existence of the Circle of Enchanters could be forfeit. To rescue the kingdom and locate your mentor in the treacherous mists of time, you must gain the power and cunning of a true Sorcerer. \n \nDifficulty: Advanced",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-lidg5nx9ig0bwk55-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1984,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#sorcerer (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-lidg5nx9ig0bwk55.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-lidg5nx9ig0bwk55-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/sorcerer/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid lidg5nx9ig0bwk55, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-ouv80gvsl32xlion",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "sortTitle": "HITCHHIKER'S GUIDE TO THE GALAXY, THE",
+      "series": null,
+      "author": "Douglas Adams and Steve Meretzky",
+      "firstPublishedYear": 1984,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Don't Panic! Relax, because everything you need to know about playing The Hitchhiker's Guide to the Galaxy is contained in the pages of this manual. In this story, you will be Arthur Dent, a rather ordinary earth creature who gets swept up in a whirlwind of interstellar adventures almost beyond comprehension.\n\n   As the story begins bulldozers are waiting to reduce your house to rubble to make way for a motorway bypass. While you attempt to deal with this problem, your rather strange friend Ford Prefect drops by to tell you that the Earth is about to be demolished to make way for an interstellar bypass! If you survive this double threat, you'll embark on a series of inter-galactic misadventures even funnier than your worst nightmares!\n\n   A special note for people who have read the book \"The Hitchhiker's Guide to the Galaxy\". Although the opening of the game is fairly similar to the book, the story quickly diverges, with lots of new material and different twists. Although familiarity with the story may make a few of the early puzzles easier, if you rely too heavily on this previous knowledge you will certainly end up getting misled.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-ouv80gvsl32xlion-ifdb-import",
+          "title": "59",
+          "releaseYear": 1984,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#hitchhiker (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-ouv80gvsl32xlion.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-ouv80gvsl32xlion-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/the%20hitchhiker%27s%20guide%20to%20the%20galaxy/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid ouv80gvsl32xlion, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-p976o7x5ies9ltdh",
+      "title": "Deadline",
+      "sortTitle": "DEADLINE",
+      "series": null,
+      "author": "Marc Blank",
+      "firstPublishedYear": 1982,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Twelve hours to solve the mystery. One false move, and the killer strikes again. \n It's been called \"part of the latest craze in home computing (TIME magazine), an \"amazing feat of programming\" (THE NEW YORK TIMES) and the \"Best Adventure of 1983\" (ELECTRONIC GAMES). \n\nIt's Deadline, and it puts you, the keen-eyed sleuth, against a 12-hour time limit to solve a classic locked-door mystery. Armed only with the clues inside this package and your own wits, you must sift through myriads of evidence and motives to track down the killer. No easy feat, for all six of your suspects exercise free will - coming and going, scheming and maneuvering independently of your actions. And some of these personalities are so treacherous that, should you make the wrong move, one of them may do you in. \n\nDifficulty: Expert.\n\n(IFID refers to the commercial version of the game, though the port is available as source code from the IF Archive.)",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-p976o7x5ies9ltdh-ifdb-import",
+          "title": "Release 3",
+          "releaseYear": 1982,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#deadline (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-p976o7x5ies9ltdh.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-p976o7x5ies9ltdh-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/deadline/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid p976o7x5ies9ltdh, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-rsd9e0bw9s7iq4pe",
+      "title": "Mini-Zork II",
+      "sortTitle": "MINI-ZORK II",
+      "series": "Mini-Zork series",
+      "author": "Dave Lebling, Marc Blank",
+      "firstPublishedYear": 2021,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "A refurbished version of the work-in-progress, never-released Mini-Zork II found in Infocom's archives. Primarily restored by Torbjörn Andersson.\n\nCompared to the full game, the map and some of the puzzles have been simplified and much of the text has been shortened. The Bank of Zork and Oddly-angled rooms have been dropped completely, and the Wizard has lost a few of his spells.\n\nExpect the unexpected when you take on Zork II: The Wizard of Frobozz.\n\nAs you explore the subterranean realm of Zork, you'll continually be confronted with new surprises. Chief among these is the Wizard himself, who'll constantly endeavor to confound you with his capricious powers. But more than that, you'll face a challenge the likes of which you've never experienced before.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-rsd9e0bw9s7iq4pe-ifdb-import",
+          "title": "15",
+          "releaseYear": 2021,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#minizork2 (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-rsd9e0bw9s7iq4pe.dat"
+          },
+          "artifacts": []
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid rsd9e0bw9s7iq4pe, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-t47hei9uq10xoar8",
+      "title": "Suspended",
+      "sortTitle": "SUSPENDED",
+      "series": null,
+      "author": "Michael Berlyn",
+      "firstPublishedYear": 1983,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "They said you would sleep for half a millennium - not an unreasonable length of time, considering you'd be in limited cryogenic suspension. Your body would rest at the planet's nerve center, an underground complex 20 miles beneath the surface. Your brain, they told you, would be wired to a network of computers; your mind would continue to operate at a minimal level, overseeing maintenance of surface-side equilibrium. And you would not awake, so they promised, until your 500 years had elapsed - barring, of course, the most dire emergency. \n\nThen, and only then, you would be awakened to save your planet by strategically manipulating six robots, each of whom perceives the world differently. But such a catastrophe, you have been assured, could not possibly occur. \n\nGood morning. \n \nDifficulty: Expert",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-t47hei9uq10xoar8-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1983,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#suspended (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-t47hei9uq10xoar8.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-t47hei9uq10xoar8-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/suspended/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid t47hei9uq10xoar8, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-tdbss1ekrp4ua7h4",
+      "title": "Suspect",
+      "sortTitle": "SUSPECT",
+      "series": null,
+      "author": "Dave Lebling",
+      "firstPublishedYear": 1984,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "You're guilty until proven innocent. \n\nYou have walked into a hotbed of deceit and trickery. And now they're accusing you of something you couldn't have done. But they have proof that you did it. \"You're a killer,\" they say. And until you can prove them wrong, you're guilty as charged - murder. \n\nAmong society's upper crust, murder is the kind of nastiness that must be cleared up quickly. So isn't it convenient that you, a struggling journalist looking for a good time and a good story, end up the scapegoat? The evidence is stacked against you, and you're being forced to prove your own innocence. And someone else's guilt. But no one wants to help you. You're an outsider. And only an outsider could be so rude as to accept an invitation to the social event of the season. Then spoil it all. \n \nDifficulty: Advanced",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-tdbss1ekrp4ua7h4-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1984,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#suspect (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-tdbss1ekrp4ua7h4.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-tdbss1ekrp4ua7h4-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/suspect/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid tdbss1ekrp4ua7h4, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-vrsot1zgy1wfcdru",
+      "title": "Zork III",
+      "sortTitle": "ZORK III",
+      "series": "Zork",
+      "author": "Dave Lebling, Marc Blank",
+      "firstPublishedYear": 1982,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "An old, oddly youthful man turns toward you slowly. His long, silver hair dances about him as a fresh breeze blows. \"You have reached the final test, my friend! You are proved clever and powerful, but this is not yet enough! Seek me when you feel yourself worthy!\" \n\nZork III: The Dungeon Master draws you into the deepest and most mysterious reaches of the Great Underground Empire. Nothing is as it seems. And the one responsible for the shadow and darkness - the Dungeon Master - embodies the greatest mystery of all. \n\nIn this test of wisdom and courage, you will face countless dangers. But what awaits you at the culmination of your odyssey is well worth risking all. \n\nDifficulty: Advanced",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-vrsot1zgy1wfcdru-ifdb-import",
+          "title": "Release 17 / Serial number 840727",
+          "releaseYear": 1982,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#zork3 (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-vrsot1zgy1wfcdru.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-vrsot1zgy1wfcdru-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=vrsot1zgy1wfcdru&version=24. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid vrsot1zgy1wfcdru, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-vu4xhul3abknifcr",
+      "title": "Enchanter",
+      "sortTitle": "ENCHANTER",
+      "series": "The Enchanter series",
+      "author": "Marc Blank, Dave Lebling",
+      "firstPublishedYear": 1983,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "In Enchanter, the first of a spellbinding series in the tradition of Zork, you are a novice magician whom Fate has chosen to do singlehanded combat with a dark and fierce power. But worldly weapons will avail you naught, for your foe is the Evil Warlock who holds sway over the land. \n\nTo defeat him, you will have to match your skills as a necromancer against his, casting spells you have learned from your masters in the Circle of Enchanters and other incantations you will acquire as you proceed on your quest. \n\nIf you succeed, you will be elevated to a seat in the illustrious Circle; if you fail, your land will be doomed to an eternity of darkness. \n\nDifficulty: Standard.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-vu4xhul3abknifcr-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1983,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#enchanter (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-vu4xhul3abknifcr.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-vu4xhul3abknifcr-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/enchanter/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid vu4xhul3abknifcr, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-w3pz3v8wckaw1wgb",
+      "title": "Shogun",
+      "sortTitle": "SHOGUN",
+      "series": null,
+      "author": "James Clavell, Dave Lebling",
+      "firstPublishedYear": 1989,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Experience the sweeping drama and power of James Clavell's Shogun. \n \nThe year is 1600. You are John Blackthorne, Pilot-Major of a privateering merchant ship and the first Englishman to set foot on Japanese soil. Thrust into the exotic culture of feudal Japan, you must rely on your wits and sheer physical strength to survive. As you are drawn into the political intrigue and teeming violence, your most basic beliefs and assumptions will be tested. Act with care: in a land where honor is valued above life itself, you make a wrong decision at your peril. \n\nIn this interactive adaptation, Dave Lebling - co-author of the enormously popular Zork series - captures all the drama and spell-binding style of James Clavell's matchless novel. Color graphics crafted in the exquisite style of 16th century Japanese court painters illustrate the unfolding saga. Infocom's new, friendlier parser understands more commands than ever. And if you ever need help, on-screen hints will lead you back to the action.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-w3pz3v8wckaw1wgb-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1989,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#shogun (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-w3pz3v8wckaw1wgb.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-w3pz3v8wckaw1wgb-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/c64/shogun/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid w3pz3v8wckaw1wgb, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-wqsmrahzozosu3r",
+      "title": "Spellbreaker",
+      "sortTitle": "SPELLBREAKER",
+      "series": "The Enchanter series",
+      "author": "Dave Lebling",
+      "firstPublishedYear": 1985,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Spellbreaker, the riveting conclusion to the Enchanter trilogy, explores the mysterious underpinnings of the Zorkian universe. A world founded on sorcery suddenly finds its magic failing, and only you, leader of the Circle of Enchanters, can uncover and destroy the cause of this paralyzing chaos. \n\nThe very core of your civilization is under siege, and only a perilous journey through the black foundation of magic itself will yield a chance for survival. \n\nAnd although your triumph over this unknown Evil is uncertain, you must embark without hesitation and prove yourself the worthiest mage in the land. \n\nDifficulty: Expert",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-wqsmrahzozosu3r-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1985,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#spellbreaker (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-wqsmrahzozosu3r.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-wqsmrahzozosu3r-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/spellbreaker/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid wqsmrahzozosu3r, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-xe6kb3cuqwie2q38",
+      "title": "Planetfall",
+      "sortTitle": "PLANETFALL",
+      "series": "Planetfall series",
+      "author": "Steve Meretzky",
+      "firstPublishedYear": 1983,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "\"Join the Patrol, and see the Galaxy!\" You took the poster's advice, bait and all, and marched right over to the recruitment station near your home on the backwater planet of Gallium. Images of exotic worlds, strange and colorful aliens, and Deep Space heroism had danced in your head as you signed the dotted line. And since that day the closest you've come to Deep Space heroism was scrubbing down the radioactive leper colony on Ishmael-3. \n\nBut suppose that jumbo fortune cookie you got at Qwang's Take-Out Asteroid last shore leave was right. Maybe you will indeed narrowly escape disaster. It's even possible that you'll actually travel to an unknown corner of the Universe, where you'll save a doomed planet - or die in the attempt. In fact, we'll guarantee it - every crumb of it - because that's just the way the cosmic cookie crumbles. \n\nDifficulty: Standard",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-xe6kb3cuqwie2q38-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1983,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#planetfall (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-xe6kb3cuqwie2q38.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-xe6kb3cuqwie2q38-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/planetfall/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid xe6kb3cuqwie2q38, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-y42oje3ryqi6lohn",
+      "title": "Starcross",
+      "sortTitle": "STARCROSS",
+      "series": null,
+      "author": "Dave Lebling",
+      "firstPublishedYear": 1982,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Starcross, Infocom's science fiction mind-bender, launches you headlong into the year 2186 and the depths of space. And not without good reason, for you are destined to rendezvous with a gargantuan starship from the outer fringes of the galaxy, peopled with both harmful and helpful beings. But the great starship serves a far larger purpose than mere cultural exchange. It bears a challenge that was issued eons ago, from light years away - and only you can meet it. \n\nDifficulty: Expert",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-y42oje3ryqi6lohn-ifdb-import",
+          "title": "17",
+          "releaseYear": 1982,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#starcross (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-y42oje3ryqi6lohn.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-y42oje3ryqi6lohn-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/starcross/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid y42oje3ryqi6lohn, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-yzzm4puxyjakk8c4",
+      "title": "Zork II",
+      "sortTitle": "ZORK II",
+      "series": "Zork",
+      "author": "Dave Lebling, Marc Blank",
+      "firstPublishedYear": 1981,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "The Wizard appears, floating nonchalantly in the air beside you. He grins sideways at you. \n\nThe Wizard incants \"Fantasize,\" but nothing happens. He shakes his wand. Nothing happens. With a slightly embarrassed glance in your direction, he vanishes. \n\nExpect the unexpected when you take on Zork II: The Wizard of Frobozz. \n\nAs you explore the subterranean realm of Zork, you'll continually be confronted with new surprises. Chief among these is the Wizard himself, who'll constantly endeavor to confound you with his capricious powers. But more than that, you'll face a challenge the likes of which you've never experienced before. \n\nDifficulty: Advanced",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-yzzm4puxyjakk8c4-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1981,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#zork2 (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-yzzm4puxyjakk8c4.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-yzzm4puxyjakk8c4-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Identity visually confirmed against IFDB listing before publish.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/dos/zork%20ii/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid yzzm4puxyjakk8c4, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-z02joykzh66wfhcl",
+      "title": "Wishbringer",
+      "sortTitle": "WISHBRINGER",
+      "series": null,
+      "author": "Brian Moriarty",
+      "firstPublishedYear": 1985,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "It's an ordinary day in your ordinary little town, and you've been performing your ordinary mail clerk's duties in an altogether ordinary way. But there's something quite extraordinary in today's mail. It's a ransom note for a kidnapped cat, and it will lead you through unbelievably harrowing adventures to Wishbringer, a stone possessing undreamt-of powers. For though the note in question is addressed to someone in your ordinary little town, it's postmarked for Special Delivery to Parts Unknown. And its true destination is somewhere beyond your wildest dreams, c/o the magic of Infocom's interactive fiction. \n \nDifficulty: Introductory",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-z02joykzh66wfhcl-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1985,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#wishbringer (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-z02joykzh66wfhcl.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-z02joykzh66wfhcl-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/wishbringer/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid z02joykzh66wfhcl, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-zjyxds3s57pgis3x",
+      "title": "Bureaucracy",
+      "sortTitle": "BUREAUCRACY",
+      "series": null,
+      "author": "Douglas Adams, The Staff of Infocom",
+      "firstPublishedYear": 1987,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "IMPORTANT! Our records show that you do not have a license to operate this software. Normally, you would be required to complete a License Application Form and mail it (with proof of purchase) to our Licensing Department, and then wait the customary four to six months for processing. \n\nLuckily, for your convenience, we have, at the last minute and at great expense, installed a remarkable new on-line electronic application form on this very disk, which will be processed by our modern 24-hour computer service moments after you fill it in. \n \nBureaucracy! Everyone, at one time or another, feels bound up in an endless swathe of red tape. In Bureaucracy, best-selling humorist Douglas Adams draws on his own battles with beadledom to create a hilarious misadventure. You'll find yourself in the midst of a bureaucratic muddle so convoluted that you can't help but laugh. \n\nYou've just landed a great new job and moved to a spiffy house in a nice little town. You're even being sent to Paris this very afternoon for a combination training seminar and vacation. What could possibly go wrong? The answer, of course, is everything. When the bank refuses to acknowledge your change-of-address form, you'll find yourself entangled in a series of bureaucratic mishaps that take you from the feeding trough of a greedy llama to the lofty branches of a tree deep in the Zalagasan jungle. \n\nThe distinctive humor that made The Hitchhiker's Guide to the Galaxy a runaway success will keep you in stitches as you confront a series of bureaucratic puzzles and experience the thrill of outsmarting the powers that be.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-zjyxds3s57pgis3x-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1987,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#bureaucracy (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-zjyxds3s57pgis3x.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-zjyxds3s57pgis3x-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/bureaucracy/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid zjyxds3s57pgis3x, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-zoohwv5nqye7up2t",
+      "title": "Arthur: The Quest for Excalibur",
+      "sortTitle": "ARTHUR: THE QUEST FOR EXCALIBUR",
+      "series": null,
+      "author": "Bob Bates",
+      "firstPublishedYear": 1989,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "\"Whoso pulleth out this sword of this stone, is rightwise king of England.\"\n\nIn the days before Camelot, when magic and evil rule England, a sword sheathed in stone appears in a quiet churchyard. Engraved upon it are words which form your destiny. For you are Arthur, the son and true heir of the High King, Uther Pendragon.\n\nBut there is more to asserting your claim than wresting free the sword. The sword in the stone disappears - stolen by the evil King Lot. To win it back, you must develop the kingly qualities of wisdom, chivalry, and experience, qualities that will also prove you worthy of the throne. And you must do it all within three days, or Lot will usurp your legacy.\n\nYou are assisted by Merlin the Enchanter, who grants you the power to transform yourself into a variety of animals. Now you can explore the kingdom as no one has before: from the sky, from rivers and lakes, from on - and under - the earth. How you use this power, and how you solve the myriad puzzles that confront you, will determine your success in your quest.\n\nMerlin's crystal ball reveals helpful hints. The undo command lets you rescind even the most foolhardy of decisions. Optional on-screen mapping gives your quest direction. A medieval Book of Hours has been magically cast into each and every Arthur package, along with the game disk and complete instructions.\n\nNow prepare to claim your birthright as king born of all England. It's your chance to live the legend.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-zoohwv5nqye7up2t-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1989,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#arthur (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-zoohwv5nqye7up2t.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-zoohwv5nqye7up2t-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/arthur_%20the%20quest%20for%20excalibur/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid zoohwv5nqye7up2t, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-zxb8pq3qrkvdob4i",
+      "title": "Nord and Bert Couldn't Make Head or Tail of It",
+      "sortTitle": "NORD AND BERT COULDN'T MAKE HEAD OR TAIL OF IT",
+      "series": null,
+      "author": "Jeff O'Neill",
+      "firstPublishedYear": 1987,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "You are standing at the edge of a barren field. A steady wind, having secreted away the topsoil, is now drifting sandy dirt across the plain. A scant sign of life here is a freshly-burrowed molehill on the ground. \n\n> MAKE A MOUNTAIN OUT OF THE MOLEHILL \n\nThere is a tremendous rumbling in the distance, getting louder and louder, until it is deafening. The dirt around the molehill crumbles away as mighty, jagged granite peaks emerge from deep underground. The surrounding landscape transforms into a fertile valley before your very eyes. \n\nInfocom's first collection of short stories takes you to a place where nothing is quite as it seems. It's a place where you really can make a mountain out of a molehill, where \"the fur is flying\" is taken literally, and where a bow can be turned into a beau. \n\nEach of the eight stories in Nord and Bert Couldn't Make Head or Tail of It involves a different type of wordplay. You'll find yourself challenging your wits and your memory to come up with the clichés, spoonerisms, and other verbal trickeries needed to complete the puzzles. But don't view this as a hard row to hoe. Nord and Bert contains built-in hints, which you can call upon when the going gets rough. \n \nAll eight stories take place in the mixed-up town of Punster. However, no two contain the same people, locations, or objects. Each is played independently of the others, although you'll use passwords obtained in seven of the stories to get into the eighth. As for mapping, it's out of the window. You simply type where you want to go. \n \nThe tall tales in Nord and Bert are every bit as fun and clever as Infocom's other interactive fiction stories. They can each be completed in one sitting, making them a highly entertaining way to spend an evening, alone or with friends. Nord and Bert was authored by Jeff O'Neill, whose mind is constantly working on artful new turns of phrase.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-zxb8pq3qrkvdob4i-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1987,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Commercial IFDB title (frotz-catalog never hosts or references a source for it). An operator who wants to supply their own copy can find historical release files for this game at https://eblong.com/infocom/#nordandbert (a long-standing Infocom preservation archive) — verify you are comfortable with that source's standing before using it; this catalog does not vouch for its licensing.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-zxb8pq3qrkvdob4i.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-zxb8pq3qrkvdob4i-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "present",
+              "rightsStatus": "reference-only",
+              "provenance": "Sourced from the local retro_v2 image tree, already served publicly by the existing Polyhydra CDN. Published as reference/identification art for a game this catalog does not host, sell, or claim ownership of, mirroring how IFDB and similar databases display box scans. Selected from multiple ambiguous platform-variant matches after visual confirmation against IFDB listing; other candidates for this title were not used.",
+              "spoilerLevel": "none",
+              "url": "https://cdn.polyhydragames.com/images/retro_v2/scummvm/nord%20and%20bert%20couldn%27t%20make%20head%20or%20tail%20of%20it/boxart.png",
+              "contentType": "image/png"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid zxb8pq3qrkvdob4i, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-1rea34vqnz3mtyq1",
+      "title": "Mini-Zork",
+      "sortTitle": "MINI-ZORK",
+      "series": "Mini-Zork series",
+      "author": "Dave Lebling, Marc Blank",
+      "firstPublishedYear": 1988,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "This story file is a condensed version of Zork I, Infocom's most popular title, reduced to make it viable for the cassette-based Commodore 64. The only Infocom story file ever to be intended to run from cassette rather than disk, the Mini-Zork has been compared to a Reader's Digest edition of a classic. The Mini-Zork is one of several instances of Infocom revisiting Zork in its final years of Infocom: there were also the Solid Gold edition, the never-completed German translation and the sequels Beyond Zork and Zork Zero. \n \nMini-Zork I had a brief shelf-life in computer shops, in Activision packaging, but it is now best known for its magazine release. In November 1990, a year after Infocom had effectively become defunct, the Mini-Zork was given away with the British Commodore users' magazine \"Zzap! 64\" no. 67, which is now a collector's item.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-1rea34vqnz3mtyq1-ifdb-import",
+          "title": "34",
+          "releaseYear": 1988,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://ifarchive.org/if-archive/infocom/demos/minizork.z3",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Mini-Zork\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-1rea34vqnz3mtyq1-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=1rea34vqnz3mtyq1&version=7. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 1rea34vqnz3mtyq1, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-32cgssxxwjijh3ai",
+      "title": "Coils of Hate",
+      "sortTitle": "COILS OF HATE",
+      "series": "Virtual Reality Adventure",
+      "author": "Mark Smith, SD Separa",
+      "firstPublishedYear": 2024,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Alone in the labyrinthine streets of the ancient city of Godorno, you frantically attempt to save your people -- the Judain -- from their tyrannical ruler, the Overlord. Terrified of being hunted down, the Judain have gone to ground. But now there is an even greater menace: Hate, the very embodiment of all that is sinister, has invaded the city. Its tentacles emerge from the sewers beneath the city, destroying everything. No one is safe. Will you be able to vanquish Hate and prevent the annihilation of your People?\n\n(An adaptation of a 1993 gamebook by Mark Smith.)",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-32cgssxxwjijh3ai-ifdb-import",
+          "title": "1",
+          "releaseYear": 2024,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/coils-of-hate/releases/download/v1.2.1/coilshate.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Coils of Hate\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-32cgssxxwjijh3ai-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=32cgssxxwjijh3ai&version=3. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 32cgssxxwjijh3ai, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-5oyuskkd7zv3h5g1",
+      "title": "Necklace of Skulls",
+      "sortTitle": "NECKLACE OF SKULLS",
+      "series": "Virtual Reality Adventure",
+      "author": "Dave Morris, SD Separa",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Learning of the disappearance of your twin brother in the trackless desert, you resolve to set out and discover his fate. Leaving the hub of your elaborate Mayan civilization far behind, your quest takes you to the lost jungle cities, across mountains and seas, and even to the baleful depths of the underworld. If you are luck enough to survive the treacherous desert journey, you must still confront the wizard called Necklace of Skulls in a deadly contest whose stakes are nothing less than your own soul.\n\nAn unofficial adaptation of the 1993 Virtual Reality Adventures book by Dave Morris",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-5oyuskkd7zv3h5g1-ifdb-import",
+          "title": "1",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/necklace-skulls/releases/download/v1.6.2/necklace.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Necklace of Skulls\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-5oyuskkd7zv3h5g1-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=5oyuskkd7zv3h5g1&version=2. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 5oyuskkd7zv3h5g1, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-boew0e2h7sq2x17m",
+      "title": "The Investment",
+      "sortTitle": "INVESTMENT, THE",
+      "series": null,
+      "author": "Xal, Pepper Ivy",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "The year is 20XX, and the economy is in shambles. The market has fallen to its' knees, despite every effort on the part of the government and investors. Now, desperation is spreading amongst the people like a plague, with pressure building to find any way to save the market from utterly collapsing.\nStock buybacks, pouring trillions in liquidity into the market, bailouts, tax cuts..\n\nIt's the start of a new day, what ought to be just another typical Tuesday on Wall Street. Today, however, the knowledge that you have been chosen burdens you greatly.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-boew0e2h7sq2x17m-ifdb-import",
+          "title": "1",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://ifarchive.org/if-archive/games/zcode/TheInvestment.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"The Investment\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": []
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid boew0e2h7sq2x17m, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-lbfc6ngu1347s7rn",
+      "title": "Secret of the Knights",
+      "sortTitle": "SECRET OF THE KNIGHTS",
+      "series": "Time Machine",
+      "author": "Jim Gasperini, SD Separa",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "IT IS THE YEAR 1340.\n\nYou have traveled back to the age of knights.\n\nA squire has just accused you of being a sorcerer. You must prove yourself in a duel with quarterstaves, but you've never used them before.\n\nYou can try to defend yourself or escape through the angry crowd. Your decision can lead you to safety or leave you stranded in time!\n\nARE YOU READY TO FACE THE DANGER?\n\nAn unofficial adaptation of the 1984 Time Machine book by Jim Gasperini",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-lbfc6ngu1347s7rn-ifdb-import",
+          "title": "4",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/secret-knights/releases/download/20221002/knights.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Secret of the Knights\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-lbfc6ngu1347s7rn-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=lbfc6ngu1347s7rn&version=9. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid lbfc6ngu1347s7rn, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-ojmkb4zz9igsj1h7",
+      "title": "The War-Torn Kingdom",
+      "sortTitle": "WAR-TORN KINGDOM, THE",
+      "series": "Fabled Lands",
+      "author": "SD Separa, Dave Morris, Jamie Thomson",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "In THE WAR-TORN KINGDOM revolution rages in Sokara. You can join forces with the king to restore his throne, or look for profit working for the dictator, Grieve Marlock. Use fighting skills or sorcery, bribery or skullduggery to survive the back streets. Descend to the sewers of Yellowport to defeat the vile rat-king, Skabb. Retrieve the golden net from the Repulsive Ones under the sea -- and use the rewards of your victories to travel beyond the boundaries of the known world.\n\nYour journeys will bring you foes and friends, danger and triumph, fortune and fame -- and more adventures than you have ever dreamed of!\n\nAn unofficial adaptation of the 1995 Quest/Fabled Lands Game Book by Dave Morris and Jamie Thomson, as updated in 2010.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-ojmkb4zz9igsj1h7-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/war-torn-kingdom/releases/download/2020091602/wartorn.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"The War-Torn Kingdom\" (IFDB license field: MIT).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-ojmkb4zz9igsj1h7-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=ojmkb4zz9igsj1h7&version=4. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid ojmkb4zz9igsj1h7, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-p00ucaayobrt2paz",
+      "title": "Four-In-One Sampler II",
+      "sortTitle": "FOUR-IN-ONE SAMPLER II",
+      "series": "Infocom's Four-In-One Sampler series",
+      "author": "Various",
+      "firstPublishedYear": 1987,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "This second Four-In-One sampler updated the first, reflecting the dramatic expansion in Infocom's output between 1984 and 1987. It contains introductory portions of Zork I, Leather Goddesses of Phobos, and Trinity, together with a tutorial from Wishbringer.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-p00ucaayobrt2paz-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1987,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://ifarchive.org/if-archive/infocom/demos/sampler2.z3",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Four-In-One Sampler II\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-p00ucaayobrt2paz-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=p00ucaayobrt2paz&version=6. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid p00ucaayobrt2paz, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-r1oi341f32uwg9n4",
+      "title": "Sail With Pirates",
+      "sortTitle": "SAIL WITH PIRATES",
+      "series": "Time Machine",
+      "author": "Jim Gasperini, SD Separa (2022)",
+      "firstPublishedYear": 2023,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "IT IS THE YEAR 1684\n\nYou have traveled back to the age of pirates.\n\nYou are stading face-to-face with a pirate captain. He offers you a choice: join his crew or die.\n\nYou can sign the parchment and become a pirate or attempt to escape before he can catch you. Your decision may lead you to safty or leave you stranded in time!\n\nARE YOU READY TO FACE THE DANGER?\n\nAn unofficial adaptation of the 1984 Time Machine book by Jim Gasperini",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-r1oi341f32uwg9n4-ifdb-import",
+          "title": "3",
+          "releaseYear": 2023,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/sail-with-pirates/releases/download/v003/pirates.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Sail With Pirates\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-r1oi341f32uwg9n4-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=r1oi341f32uwg9n4&version=8. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid r1oi341f32uwg9n4, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-ti37r5scihlc4n4b",
+      "title": "Down Among the Dead Men",
+      "sortTitle": "DOWN AMONG THE DEAD MEN",
+      "series": "Virtual Reality Adventure",
+      "author": "Dave Morris, SD Separa",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Adrift at sea in an open boat, you make your desperate bid to escape from the evil pirate Skarvench. The odds are stacked against you, for, even if you do not die of thirst, there are still formidable dangers to overcome. And if you do survive to reach civilization, your adventure is only just beginning since you must round up a crew and sail in search of Skarvench and avenge his tyranny. But will you be able to thwart his most evil and blackguardly scheme ever: to kidnap the beautiful young Queen of Glorianne?\n\nAn unofficial adaptation of the 1993 Virtual Reality Adventures book by Dave Morris",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-ti37r5scihlc4n4b-ifdb-import",
+          "title": "4",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/dead-men/releases/download/v1.6.1/deadmen.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Down Among the Dead Men\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-ti37r5scihlc4n4b-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=ti37r5scihlc4n4b&version=10. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid ti37r5scihlc4n4b, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-vchsmiok2zmrsnze",
+      "title": "The Bean Stalker",
+      "sortTitle": "BEAN STALKER, THE",
+      "series": null,
+      "author": "Jack Welch",
+      "firstPublishedYear": 2018,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Caught in an economic downturn, can Jack leverage his starving cow and climb the economic ladder? \n\nEstimated playtime: Not long at all.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-vchsmiok2zmrsnze-ifdb-import",
+          "title": "1",
+          "releaseYear": 2018,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/dhakajack/bean/releases/download/v1.0/jack.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"The Bean Stalker\" (IFDB license field: MIT).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-vchsmiok2zmrsnze-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=vchsmiok2zmrsnze&version=7. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid vchsmiok2zmrsnze, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-wa8crlfz82pra14i",
+      "title": "Four-In-One Sampler I",
+      "sortTitle": "FOUR-IN-ONE SAMPLER I",
+      "series": "Infocom's Four-In-One Sampler series",
+      "author": "Various",
+      "firstPublishedYear": 1984,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "The Four-In-One sampler contains introductory portions of Infidel, Planetfall, and Zork I, together with a session transcript from The Witness, and a scene found in no other Infocom game: Marc Blank's Catch-A-Butterfly tutorial.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-wa8crlfz82pra14i-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1984,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://ifarchive.org/if-archive/infocom/demos/sampler1_R55.z3",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Four-In-One Sampler I\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-wa8crlfz82pra14i-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=wa8crlfz82pra14i&version=6. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid wa8crlfz82pra14i, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-vfrr7qopqk2z5n6e",
+      "title": "Heart of Ice",
+      "sortTitle": "HEART OF ICE",
+      "series": "Virtual Reality Adventure",
+      "author": "Dave Morris, SD Separa",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Legend says that the one who possesses the Heart of Volent shall wield ultimate power. Created in the searing fires of the Big Bang, this fabulous gemstone focuses the cosmic forces which shape the universe itself. As cahos grows and a new Ice Age closes its grip on the world, you and handful of desperate adventurers compete in your search for the gem. Are you ruthless and resourceful enough to win its power for yourself?\n\nAn unofficial adaptation of the 1994 Virtual Reality Adventures book by Dave Morris",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-vfrr7qopqk2z5n6e-ifdb-import",
+          "title": "5",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/heart-of-ice/releases/download/v1.8.2/heartice.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Heart of Ice\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-vfrr7qopqk2z5n6e-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=vfrr7qopqk2z5n6e&version=2. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid vfrr7qopqk2z5n6e, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-wmn1law968j3a1y",
+      "title": "Green Blood",
+      "sortTitle": "GREEN BLOOD",
+      "series": "Virtual Reality Adventure",
+      "author": "Mark Smith, Dave Morris,  SD Separa",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "The evil Westermen are destroying the once beautiful and idyllic Forest of Arden. The trees are being torn down and used to fuel the raging smelters that are making deadly weapons and engines of war. In your desperate quest to prevent the annihilation of the forest you must face many dangers. But will you be able to stop the heartless mercenaries and their Infernal Machine as it smashes the very heart of the forest, the Tree of Life?\n\nAn unofficial adaptation of the 1993 Virtual Reality Adventures book by Dave Morris and Mark Smith",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-wmn1law968j3a1y-ifdb-import",
+          "title": "4",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/green-blood/releases/download/v1.6.1/greenblood.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Green Blood\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-wmn1law968j3a1y-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=wmn1law968j3a1y&version=10. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid wmn1law968j3a1y, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-wn764nzuit2wwpng",
+      "title": "Over the Blood-Dark Sea",
+      "sortTitle": "OVER THE BLOOD-DARK SEA",
+      "series": "Fabled Lands",
+      "author": "Dave Morris, Jamie Thomson, SD Separa",
+      "firstPublishedYear": 2022,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "OVER THE BLOOD-DARK SEA lie countless islands steeped in mystery. Every port brings peril -- from the half-wild settlements on the edge of Anon-Konu, to the forbidden cloisters of the sorcerers' colleges of Dweomer. Every voyage means danger -- from murderous pirates and haunted ships.\n\nYou can choose to be a daring explorer, in search of conquests, treasures and power. Or a magical savant, invoking the secrets of the occult to annihilate your foes. Or you can amass a fortune as a merchant, trading in spice shipments from the Sea of Hydras to the Innis Shoals.\n[From the back of the book]\n\nAn unofficial adaptation of the 1995 Fabled Lands book by Dave Morris and Jamie Thomson",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-wn764nzuit2wwpng-ifdb-import",
+          "title": "1",
+          "releaseYear": 2022,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://github.com/daelsepara/over-blood-dark-sea/releases/download/2022072901/bloodsea.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Over the Blood-Dark Sea\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-wn764nzuit2wwpng-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=wn764nzuit2wwpng&version=4. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid wn764nzuit2wwpng, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-5w07yn5e06d6ftqm",
+      "title": "Tutorial Game",
+      "sortTitle": "TUTORIAL GAME",
+      "series": null,
+      "author": "Marc Blank",
+      "firstPublishedYear": 1984,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "A tutorial game by Infocom, involving catching a butterfly. Included with a Zork I demo sampler, and the first Four-In-One Sampler.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-5w07yn5e06d6ftqm-ifdb-import",
+          "title": "15",
+          "releaseYear": 1984,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://unbox.ifarchive.org/?url=https%3A%2F%2Fifarchive.org%2Fif-archive%2Finfocom%2Fdemos%2Fzork_1_demo.zip&open=zork_1_demo.z3",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Tutorial Game\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": []
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 5w07yn5e06d6ftqm, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-y49j52jxdi5b3nbn",
+      "title": "PAX East 2010 Speed-IF",
+      "sortTitle": "PAX EAST 2010 SPEED-IF",
+      "series": null,
+      "author": "Tara McGrew and Kate Matthews",
+      "firstPublishedYear": 2010,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "You play as a magic user who wants to visit the 1846 Better Living Through Wizardry convention in Boston. First you have to get there, then you need to find the transubstantiation panel, and maybe pick up a couple spells along the way.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-y49j52jxdi5b3nbn-ifdb-import",
+          "title": "1",
+          "releaseYear": 2010,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://unbox.ifarchive.org/?url=https%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Fmini-comps%2Fspeedif%2FSpeedIF_PAX_East_2010.zip&open=speedif.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"PAX East 2010 Speed-IF\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": []
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid y49j52jxdi5b3nbn, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-b3vcdy1s1ukd5xcw",
+      "title": "Time Swap",
+      "sortTitle": "TIME SWAP",
+      "series": null,
+      "author": "Lancelot",
+      "firstPublishedYear": 2026,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "You step out of the transporter. The chameleon circuitry has done its job: your transporter now perfectly matches a neat row of identical red boxes on the premises. To any passerby, it is entirely unremarkable.\n\nThe environment is quiet. Too quiet. Something is wrong. You activate your Coordinated Space-Time Synchronous Reorganizer, affectionately known as the Time Swapper. Almost immediately, it emits a warning: “Anomalies detected in this time period.”",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-b3vcdy1s1ukd5xcw-ifdb-import",
+          "title": "1",
+          "releaseYear": 2026,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://unbox.ifarchive.org/?url=https%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Fmini-comps%2Fironchif%2Firon-chif-s1e2-20260522.zip&open=timeswap-updated-20260601.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Time Swap\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": []
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid b3vcdy1s1ukd5xcw, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-v2b896mwtwf5mhwt",
+      "title": "Arkanen",
+      "sortTitle": "ARKANEN",
+      "series": null,
+      "author": "Max Fog",
+      "firstPublishedYear": 2026,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "This should be majorly easy. You’re in. The ship is empty, abandoned. Now we can begin.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-v2b896mwtwf5mhwt-ifdb-import",
+          "title": "1",
+          "releaseYear": 2026,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://unbox.ifarchive.org/?url=https%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Fmini-comps%2Fironchif%2Firon-chif-s1e2-20260522.zip&open=Arkanen.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Arkanen\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-v2b896mwtwf5mhwt-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=v2b896mwtwf5mhwt&version=2. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid v2b896mwtwf5mhwt, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-7so4c67b82qmnjqg",
+      "title": "Zork 285",
+      "sortTitle": "ZORK 285",
+      "series": null,
+      "author": "Tim Anderson, Marc Blank, Bruce Daniels, and Dave Lebling",
+      "firstPublishedYear": 1977,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "This is an attempt to make a truthful as possible ZIL-version of the very first MDL version of Zork from June 14th, 1977.\n\nPlease type 'about' in game for more info about this version.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-7so4c67b82qmnjqg-ifdb-import",
+          "title": "2",
+          "releaseYear": 1977,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://raw.githubusercontent.com/heasm66/mdlzork/bdcd4a671b4707f7acad5a2e3aa3cc9f51bf19b3/zork_285/bin/zork_285.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Pinned to a commit SHA (not a mutable branch ref). Fan reconstruction of the original 1977 mainframe Zork, hosted at the author's own GitHub repo; IFDB license field: Free.",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-7so4c67b82qmnjqg-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=7so4c67b82qmnjqg&version=9. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid 7so4c67b82qmnjqg, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-fek70ft3caghc1mz",
+      "title": "A Clockwork Noir",
+      "sortTitle": "CLOCKWORK NOIR, A",
+      "series": null,
+      "author": "Jeremy Lee Harden",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Welcome to New Jag City, the City of Gears and Cogs. You are Detective Adaran Valance, who is looking for a new case. What waits for you in the city that never sleeps?",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-fek70ft3caghc1mz-ifdb-import",
+          "title": "5",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://raw.githubusercontent.com/Leettyun/OOZELUMNY/2570a99c68ba6aa0f7a26040e002e6d2117ca69c/story-files/noir.z5",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Pinned to a commit SHA (not a mutable branch ref). Hosted at the author's own GitHub repo; IFDB license field: Freeware.",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-fek70ft3caghc1mz-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=fek70ft3caghc1mz&version=4. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid fek70ft3caghc1mz, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-qel8teuugclcheaz",
+      "title": "Hypochondriac (or Outcast)",
+      "sortTitle": "HYPOCHONDRIAC (OR OUTCAST)",
+      "series": null,
+      "author": "Tomas Bok",
+      "firstPublishedYear": 1986,
+      "runtime": "frotz",
+      "playable": true,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Hypochondriac (also named in the source code as Outcast) was a private experiment with ZIL by Tomas Bok, then a tester at Infocom, who also, with Dave Anderson and Jeff O'Neill, worked on a separate internal spoof game called Zok (the name being a mix of 'Zork' and 'Bok').\n\nIn 2019, its source code was discovered in the USR directory of the Infocom Drive by Adam Sommerfield, and compiled into a working game file. After some discussion of the proprieties of publishing this private experiment, the original author Tom Bok emerged and gave some context.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-qel8teuugclcheaz-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 1986,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://eblong.com/infocom/gamefiles/hypochondriac-r11-s870225.z3",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Final 'Hypochondriac per se' revision per eblong.com's own description of the game-files set. IFDB license field: Author permission.",
+            "spoilerLevel": "none"
+          },
+          "artifacts": []
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid qel8teuugclcheaz, track: free)."
+      ]
+    },
+    {
+      "slug": "ifdb-kszih8s6zhie1icf",
+      "title": "IYASHIKEI: The Fountain",
+      "sortTitle": "IYASHIKEI: THE FOUNTAIN",
+      "series": null,
+      "author": "Adam Sommerfield",
+      "firstPublishedYear": 2024,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "Objective: Explore the island, collect a key item, fully explore everything to prompt relaxing descriptions and finally locate the area to SLEEP.\n\nIyashikei: The Fountain is a tranquil and soothing interactive fiction game that transports players into a serene, meditative experience. Inspired by the Iyashikei genre and the calming narratives of sleep stories, this game is designed to be a brief but deeply relaxing journey. The setting is a mystical island with a magical fountain at its heart, encouraging players to explore and appreciate the beauty of the natural world around them.\n\nPlayers are invited to embark on a calming journey across a serene lake to a mystical island. The game's primary focus is on exploration and mindfulness, encouraging players to immerse themselves in the environment and take in the tranquil atmosphere.\n\nCommands and Interactions:\n\nThe typical commands are coded into this game, but to emphasise some of the things the Player can try:\nLOOK / EXAMINE: Investigate various elements of the environment. For example, looking at the lake reveals a peaceful, reflective surface, while examining the clouds shows them drifting lazily across the sky.\nLISTEN: Engage with the natural soundscape of the island. Listening might reveal the gentle rustling of leaves, the melodic chirping of birds, or the soft, rhythmic lapping of water against the shore.\nMEDITATE: Take a moment to sit down, close your eyes, and breathe deeply. This command helps players immerse themselves in the peaceful surroundings, easing their minds and filling their hearts with tranquility.\nBREATHE: Focus on deep, calming breaths. This action enhances the meditative experience, allowing players to feel the fresh air and the delicate fragrance of blooming wildflowers.\nSLEEP: Not your typical command, but in this simulation your end goal is to rest for the night in the perfect location (you'll know when you find it!)\n\nEnvironment:\n\nThe island is depicted in text descriptions with soft golden sands, lush greenery, and vibrant wildflowers. Each area, from the lake shore to the clearing with the magical fountain, is detailed with a soothing, evocative description that brings the tranquil setting to life.\n\nRecommended Approach:\n\nFor the best experience, players should take their time to examine everything. The game's charm lies in the detailed descriptions and the calming atmosphere they create.\n\nIyashikei: The Fountain is designed to be a 7-minute meditative experience. Players are encouraged to explore and interact with the environment in a leisurely manner to gain the most benefit from its calming narrative and serene setting.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-kszih8s6zhie1icf-ifdb-import",
+          "title": "IFDB import",
+          "releaseYear": 2024,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Freeware IFDB title with no stable direct-download URL: it is distributed only via https://adamsommerfield.itch.io/iyashikei-the-fountain, which gates its download behind an itch.io session/claim flow (even for free games). frotz-catalog does not script around that gate. An operator who wants to supply their own copy should download it manually from that page.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-kszih8s6zhie1icf.dat"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-kszih8s6zhie1icf-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=kszih8s6zhie1icf&version=3. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid kszih8s6zhie1icf, track: byog)."
+      ]
+    },
+    {
+      "slug": "ifdb-sjiowm1bb9jnjfpa",
+      "title": "A Potion Labeled 'Time'",
+      "sortTitle": "POTION LABELED 'TIME', A",
+      "series": null,
+      "author": "Finn Fabish",
+      "firstPublishedYear": 2020,
+      "runtime": "frotz",
+      "playable": false,
+      "platformHints": [
+        "ZIL",
+        "frotz",
+        "interactive-fiction"
+      ],
+      "story": {
+        "tagline": null,
+        "synopsis": "You wake up with your brain in a foggy haze. Where have you been the past few days? You don't seem to remember.\n\nYou find that you're in an ugly room with an ugly door and an ugly mailbox with an ugly key laying on the ugly floor.",
+        "spoilerLevel": "none",
+        "sourceStatus": "imported"
+      },
+      "editions": [
+        {
+          "editionId": "ifdb-sjiowm1bb9jnjfpa-ifdb-import",
+          "title": "1",
+          "releaseYear": 2020,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "sourceStatus": "missing",
+            "rightsStatus": "bring-your-own",
+            "provenance": "Freeware IFDB title with no stable direct-download URL: it is distributed only via https://ffabish.itch.io/a-potion-labeled-time, which gates its download behind an itch.io session/claim flow (even for free games). frotz-catalog does not script around that gate. An operator who wants to supply their own copy should download it manually from that page.",
+            "spoilerLevel": "none",
+            "expectedFilename": "ifdb-sjiowm1bb9jnjfpa.dat"
+          },
+          "artifacts": []
+        }
+      ],
+      "museumNotes": [
+        "Promoted from frotz-catalog's IFDB import (tuid sjiowm1bb9jnjfpa, track: byog)."
       ]
     }
   ]

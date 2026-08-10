@@ -1,0 +1,10 @@
+slug,title,artifactId,matchedSystem,matchedGame,relativePath,approved,reviewerNote
+ifdb-2752o3sh6y05ob1p,Journey,ifdb-2752o3sh6y05ob1p-cover-art,scummvm,journey,scummvm/journey/boxart.png,yes,Visually confirmed: genuine Infocom "Journey: The Quest Begins" box art.
+ifdb-4h62dvooeg9ajtfa,A Mind Forever Voyaging,ifdb-4h62dvooeg9ajtfa-cover-art,scummvm,a mind forever voyaging,scummvm/a mind forever voyaging/boxart.png,yes,Visually confirmed: genuine Infocom box art.
+ifdb-6963a47vqgms8wi0,The Witness,ifdb-6963a47vqgms8wi0-cover-art,scummvm,the witness,scummvm/the witness/boxart.png,yes,Visually confirmed: genuine Infocom box art.
+ifdb-7epwz167lgruvm0u,Border Zone,ifdb-7epwz167lgruvm0u-cover-art,scummvm,border zone,scummvm/border zone/boxart.png,yes,Visually confirmed: genuine Infocom box art.
+ifdb-buqppbknnwu4qtmg,Rascal,ifdb-buqppbknnwu4qtmg-cover-art,psx,rascal,psx/rascal/boxart.png,no,FALSE POSITIVE: image is the unrelated PS1 platformer "Rascal" (Psygnosis/Traveller's Tales), not the IF game. Title-only matching conflated two different games named "Rascal". Do not publish.
+ifdb-j8lmspy4iz73mx26,Sherlock: The Riddle of the Crown Jewels,ifdb-j8lmspy4iz73mx26-cover-art,scummvm,sherlock_ the riddle of the crown jewels,scummvm/sherlock_ the riddle of the crown jewels/boxart.png,yes,Visually confirmed: genuine Infocom box art.
+ifdb-jhbd0kja1t57uop,The Lurking Horror,ifdb-jhbd0kja1t57uop-cover-art,scummvm,the lurking horror,scummvm/the lurking horror/boxart.png,yes,Visually confirmed: genuine Infocom box art.
+ifdb-ouv80gvsl32xlion,The Hitchhiker's Guide to the Galaxy,ifdb-ouv80gvsl32xlion-cover-art,scummvm,the hitchhiker's guide to the galaxy,scummvm/the hitchhiker's guide to the galaxy/boxart.png,yes,Visually confirmed: genuine Infocom box art.
+ifdb-yzzm4puxyjakk8c4,Zork II,ifdb-yzzm4puxyjakk8c4-cover-art,dos,zork ii,dos/zork ii/boxart.png,yes,Visually confirmed: genuine Infocom box art.
