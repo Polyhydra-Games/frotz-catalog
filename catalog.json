@@ -1,11 +1,12 @@
 {
   "schemaVersion": 2,
-  "updated": "2026-06-30",
+  "updated": "2026-08-12",
   "catalogScope": {
     "canonicalInfocomWorks": 35,
     "supplementaryWorks": 9,
     "knownCompiledEditions": 257,
     "observedAdditionalEditions": 7,
+    "preservationSnapshotDate": "2026-06-30",
     "definition": "All 35 canonical Infocom interactive-fiction works plus recovered samplers, unreleased works, development artifacts, and the locally held post-Infocom Z-machine continuation."
   },
   "catalogAuthorities": {

@@ -13,14 +13,14 @@ The current preservation snapshot identifies 43 Infocom works and 257 compiled
 editions. The catalog also records the post-Infocom
 *Zork: The Undiscovered Underground* and seven additional story-file variants
 observed in a private collection, for 44 works and 264 historical edition
-identities. A separately approved Zork I runtime locator brings the generated
-edition-record total to 265. IFDB promotions which identify one of those same
+identities. Separately approved runtime locators for Zork I and Mini-Zork I bring the generated
+edition-record total to 266. IFDB promotions which identify one of those same
 works are reconciled into the preservation record rather than published as a
 second game. The live catalog currently contains those 44 preservation works
 plus 26 non-overlapping IFDB promotions, for 70 unique works total.
 
 An edition's presence in the catalog does **not** grant redistribution rights.
-Except for a separately approved public locator, proprietary editions contain
+Except for the separately approved public locators, proprietary editions contain
 identity metadata and checksums only. Local holdings, hostnames, and NAS paths
 are deliberately excluded from this public repository.
 

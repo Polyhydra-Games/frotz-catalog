@@ -327,12 +327,13 @@ const entries = [...generatedEntries, ...retainedEntries];
 const catalog = {
   ...seed,
   schemaVersion: 2,
-  updated: SNAPSHOT_DATE,
+  updated: new Date().toISOString().slice(0, 10),
   catalogScope: {
     canonicalInfocomWorks: 35,
     supplementaryWorks: generatedEntries.length - 35,
     knownCompiledEditions: gameFiles.length,
     observedAdditionalEditions: Object.values(observedAdditionalEditions).flat().length,
+    preservationSnapshotDate: SNAPSHOT_DATE,
     definition: "All 35 canonical Infocom interactive-fiction works plus recovered samplers, unreleased works, development artifacts, and the locally held post-Infocom Z-machine continuation."
   },
   catalogAuthorities: {
