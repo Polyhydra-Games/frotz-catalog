@@ -14,7 +14,10 @@ editions. The catalog also records the post-Infocom
 *Zork: The Undiscovered Underground* and seven additional story-file variants
 observed in a private collection, for 44 works and 264 historical edition
 identities. A separately approved Zork I runtime locator brings the generated
-edition-record total to 265.
+edition-record total to 265. IFDB promotions which identify one of those same
+works are reconciled into the preservation record rather than published as a
+second game. The live catalog currently contains those 44 preservation works
+plus 26 non-overlapping IFDB promotions, for 70 unique works total.
 
 An edition's presence in the catalog does **not** grant redistribution rights.
 Except for a separately approved public locator, proprietary editions contain
@@ -47,7 +50,9 @@ node scripts/sync-infocom-catalog.mjs --source path/to/catalog.json
 ```
 
 The synchronization script intentionally imports metadata only. It never
-downloads story files.
+downloads story files. It merges the generated Infocom records into the
+existing catalog, preserving non-Infocom promotions and reconciling known IFDB
+aliases; a refresh must not replace the rest of the catalog.
 
 Audit a private ZIP collection without publishing its path or contents:
 

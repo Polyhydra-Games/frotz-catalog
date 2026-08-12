@@ -126,6 +126,31 @@ const observedAdditionalEditions = {
   ]
 };
 
+// IFDB promotions which describe the same work as an Infocom preservation
+// record. Their bibliographic metadata is folded into the canonical record;
+// keeping both entries would make consumers display the same game twice.
+const ifdbDuplicates = new Map([
+  ["amfv", "ifdb-4h62dvooeg9ajtfa"], ["arthur", "ifdb-zoohwv5nqye7up2t"],
+  ["ballyhoo", "ifdb-b0i6bx7g4rkrekgg"], ["beyond-zork", "ifdb-9h6o1charof548ii"],
+  ["border-zone", "ifdb-7epwz167lgruvm0u"], ["bureaucracy", "ifdb-zjyxds3s57pgis3x"],
+  ["cutthroats", "ifdb-4ao65o1u0xuvj8jf"], ["deadline", "ifdb-p976o7x5ies9ltdh"],
+  ["enchanter", "ifdb-vu4xhul3abknifcr"], ["hitchhikers-guide", "ifdb-ouv80gvsl32xlion"],
+  ["hollywood-hijinx", "ifdb-jnfkbgdgopwfqist"], ["infidel", "ifdb-anu79a4n1jedg5mm"],
+  ["journey", "ifdb-2752o3sh6y05ob1p"], ["leather-goddesses", "ifdb-3p9fdt4fxr2goctw"],
+  ["lurking-horror", "ifdb-jhbd0kja1t57uop"], ["moonmist", "ifdb-c66u816v8kx2jzm2"],
+  ["nord-and-bert", "ifdb-zxb8pq3qrkvdob4i"], ["planetfall", "ifdb-xe6kb3cuqwie2q38"],
+  ["plundered-hearts", "ifdb-ddagftras22bnz8h"], ["seastalker", "ifdb-56wb8hflec2isvzm"],
+  ["sherlock", "ifdb-j8lmspy4iz73mx26"], ["shogun", "ifdb-w3pz3v8wckaw1wgb"],
+  ["sorcerer", "ifdb-lidg5nx9ig0bwk55"], ["spellbreaker", "ifdb-wqsmrahzozosu3r"],
+  ["starcross", "ifdb-y42oje3ryqi6lohn"], ["stationfall", "ifdb-9nlbhqnlyb169uge"],
+  ["suspect", "ifdb-tdbss1ekrp4ua7h4"], ["suspended", "ifdb-t47hei9uq10xoar8"],
+  ["trinity", "ifdb-j18kjz80hxjtyayw"], ["wishbringer", "ifdb-z02joykzh66wfhcl"],
+  ["witness", "ifdb-6963a47vqgms8wi0"], ["zork-i", "ifdb-0dbnusxunq7fw5ro"],
+  ["zork-ii", "ifdb-yzzm4puxyjakk8c4"], ["zork-iii", "ifdb-vrsot1zgy1wfcdru"],
+  ["zork-zero", "ifdb-17coplfu323xif76"], ["mini-zork-i", "ifdb-1rea34vqnz3mtyq1"],
+  ["mini-zork-ii", "ifdb-rsd9e0bw9s7iq4pe"]
+]);
+
 const args = new Map(process.argv.slice(2).map((value, index, all) => {
   if (!value.startsWith("--")) return [value, true];
   const next = all[index + 1];
@@ -153,6 +178,15 @@ function editionTitle(row) {
   return `${release}${serial}`;
 }
 
+function plausibleSerialYear(serial, fallback) {
+  if (!/^\d{6}$/.test(serial || "") || /^0{5}[01]$/.test(serial)) return fallback;
+  const month = Number(serial.slice(2, 4));
+  const day = Number(serial.slice(4, 6));
+  if (month < 1 || month > 12 || day < 1 || day > 31) return fallback;
+  const shortYear = Number(serial.slice(0, 2));
+  return Number(`${shortYear >= 70 ? "19" : "20"}${serial.slice(0, 2)}`);
+}
+
 const upstream = await loadUpstream();
 const gameFiles = upstream.filter((row) => row.dir === "gamefiles");
 const grouped = new Map(works.map(([slug]) => [slug, []]));
@@ -168,15 +202,13 @@ const approvedZork = seed.entries
   .find((entry) => entry.slug === "zork-i")
   ?.editions?.find((edition) => edition.storyFile?.storyUrl);
 
-const entries = [...workBySlug.values()].map((work) => {
+const generatedEntries = [...workBySlug.values()].map((work) => {
   const editions = grouped.get(work.slug)
     .sort((a, b) => a.filename.localeCompare(b.filename))
     .map((row) => ({
       editionId: editionId(row),
       title: editionTitle(row),
-      releaseYear: row.serial && /^\d{6}$/.test(row.serial)
-        ? Number(`${Number(row.serial.slice(0, 2)) >= 70 ? "19" : "20"}${row.serial.slice(0, 2)}`)
-        : work.firstPublishedYear,
+      releaseYear: plausibleSerialYear(row.serial, work.firstPublishedYear),
       publisher: "Infocom",
       runtime: "frotz",
       releaseNumber: row.release || null,
@@ -201,7 +233,7 @@ const entries = [...workBySlug.values()].map((work) => {
     editions.push({
       editionId: id,
       title: `Observed release ${release}${serial ? `, serial ${serial}` : ""}`,
-      releaseYear: serial && /^\d{6}$/.test(serial) ? Number(`19${serial.slice(0, 2)}`) : work.firstPublishedYear,
+      releaseYear: plausibleSerialYear(serial, work.firstPublishedYear),
       publisher: work.publisher,
       runtime: "frotz",
       releaseNumber: release,
@@ -226,6 +258,16 @@ const entries = [...workBySlug.values()].map((work) => {
     editions.unshift(approvedZork);
   }
 
+  const duplicate = seed.entries.find((entry) => entry.slug === ifdbDuplicates.get(work.slug));
+  const existingWork = seed.entries.find((entry) => entry.slug === work.slug);
+  const bibliography = duplicate || existingWork;
+  const duplicateArtifacts = duplicate?.editions?.[0]?.artifacts
+    || existingWork?.editions?.find((edition) => edition.artifacts?.length)?.artifacts;
+  if (duplicateArtifacts?.length) {
+    const targetEdition = editions.find((edition) => edition.storyFile?.storyUrl) || editions[0];
+    targetEdition.artifacts = duplicateArtifacts;
+  }
+
   return {
     slug: work.slug,
     title: work.title,
@@ -235,34 +277,44 @@ const entries = [...workBySlug.values()].map((work) => {
     firstPublishedYear: work.firstPublishedYear,
     catalogScope: work.scope,
     genre: work.genre,
+    author: bibliography?.author,
     runtime: "frotz",
     playable: editions.some((edition) => Boolean(edition.storyFile?.storyUrl)),
     platformHints: ["z-machine", "interactive-fiction", "text-adventure"],
     story: {
-      synopsis: work.scope === "canonical"
+      synopsis: bibliography?.story?.synopsis || (work.scope === "canonical"
         ? "One of Infocom's 35 canonical interactive-fiction titles."
-        : `Preservation catalog entry classified as ${work.scope}.`,
+        : `Preservation catalog entry classified as ${work.scope}.`),
       spoilerLevel: "none",
       sourceStatus: "curated"
     },
     editions,
     museumNotes: [
-      "Metadata and checksums only; no proprietary story binary is stored in this repository."
+      "Metadata and checksums only; no proprietary story binary is stored in this repository.",
+      ...(ifdbDuplicates.has(work.slug)
+        ? [`IFDB bibliographic identity reconciled from ${ifdbDuplicates.get(work.slug)}; duplicate work record removed.`]
+        : [])
     ]
   };
 });
 
+const duplicateSlugs = new Set(ifdbDuplicates.values());
+const retainedEntries = seed.entries.filter((entry) => !workBySlug.has(entry.slug) && !duplicateSlugs.has(entry.slug));
+const entries = [...generatedEntries, ...retainedEntries];
+
 const catalog = {
+  ...seed,
   schemaVersion: 2,
   updated: SNAPSHOT_DATE,
   catalogScope: {
     canonicalInfocomWorks: 35,
-    supplementaryWorks: entries.length - 35,
+    supplementaryWorks: generatedEntries.length - 35,
     knownCompiledEditions: gameFiles.length,
     observedAdditionalEditions: Object.values(observedAdditionalEditions).flat().length,
     definition: "All 35 canonical Infocom interactive-fiction works plus recovered samplers, unreleased works, development artifacts, and the locally held post-Infocom Z-machine continuation."
   },
   catalogAuthorities: {
+    ...seed.catalogAuthorities,
     identity: "frotz-catalog static JSON",
     editionPreservation: UPSTREAM_URL,
     storySource: "approved external reference only",
