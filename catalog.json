@@ -6195,6 +6195,24 @@
               "rightsStatus": "unknown",
               "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=0dbnusxunq7fw5ro&version=45. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
               "spoilerLevel": "none"
+            },
+            {
+              "artifactId": "zork-i-manual",
+              "kind": "manual",
+              "title": "Instruction Manual",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "Awaiting a canonical rights-cleared locator.",
+              "spoilerLevel": "none"
+            },
+            {
+              "artifactId": "zork-i-feelies",
+              "kind": "feelies",
+              "title": "Original package feelies",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "Awaiting a canonical rights-cleared locator.",
+              "spoilerLevel": "none"
             }
           ]
         },
@@ -7745,7 +7763,7 @@
       "genre": "Fantasy",
       "author": "Dave Lebling, Marc Blank",
       "runtime": "frotz",
-      "playable": false,
+      "playable": true,
       "platformHints": [
         "z-machine",
         "interactive-fiction",
@@ -7757,6 +7775,33 @@
         "sourceStatus": "curated"
       },
       "editions": [
+        {
+          "editionId": "ifdb-1rea34vqnz3mtyq1-ifdb-import",
+          "title": "34",
+          "releaseYear": 1988,
+          "publisher": null,
+          "runtime": "frotz",
+          "storyFile": {
+            "kind": "story-file",
+            "runtime": "frotz",
+            "storyUrl": "https://ifarchive.org/if-archive/infocom/demos/minizork.z3",
+            "sourceStatus": "present",
+            "rightsStatus": "external-reference-only",
+            "provenance": "Hand-verified free/legal source for \"Mini-Zork\" (IFDB license field: Freeware).",
+            "spoilerLevel": "none"
+          },
+          "artifacts": [
+            {
+              "artifactId": "ifdb-1rea34vqnz3mtyq1-cover-art",
+              "kind": "box-art",
+              "title": "Cover art",
+              "sourceStatus": "missing",
+              "rightsStatus": "unknown",
+              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=1rea34vqnz3mtyq1&version=7. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
+              "spoilerLevel": "none"
+            }
+          ]
+        },
         {
           "editionId": "minizork-r2-s840207",
           "title": "Release 2, serial 840207",
@@ -7781,18 +7826,7 @@
               "value": "bd2b571ec1c1a3cea017ea6f63d961f4"
             },
             "spoilerLevel": "none"
-          },
-          "artifacts": [
-            {
-              "artifactId": "ifdb-1rea34vqnz3mtyq1-cover-art",
-              "kind": "box-art",
-              "title": "Cover art",
-              "sourceStatus": "missing",
-              "rightsStatus": "unknown",
-              "provenance": "IFDB cover-art candidate at https://ifdb.org/coverart?id=1rea34vqnz3mtyq1&version=7. Not copied or published; requires identity and rights confirmation before a CDN artifact can be attached (see publish-review-queue.mjs).",
-              "spoilerLevel": "none"
-            }
-          ]
+          }
         },
         {
           "editionId": "minizork-r34-s871124",

@@ -198,6 +198,9 @@ for (const row of gameFiles) {
 }
 
 const seed = JSON.parse(await readFile(new URL("../catalog.json", import.meta.url), "utf8"));
+const reconciliationSeed = args.get("--reconciliation-seed")
+  ? JSON.parse(await readFile(args.get("--reconciliation-seed"), "utf8"))
+  : seed;
 const approvedZork = seed.entries
   .find((entry) => entry.slug === "zork-i")
   ?.editions?.find((edition) => edition.storyFile?.storyUrl);
@@ -258,14 +261,33 @@ const generatedEntries = [...workBySlug.values()].map((work) => {
     editions.unshift(approvedZork);
   }
 
-  const duplicate = seed.entries.find((entry) => entry.slug === ifdbDuplicates.get(work.slug));
-  const existingWork = seed.entries.find((entry) => entry.slug === work.slug);
+  const duplicate = reconciliationSeed.entries.find((entry) => entry.slug === ifdbDuplicates.get(work.slug));
+  const existingWork = reconciliationSeed.entries.find((entry) => entry.slug === work.slug);
   const bibliography = duplicate || existingWork;
-  const duplicateArtifacts = duplicate?.editions?.[0]?.artifacts
-    || existingWork?.editions?.find((edition) => edition.artifacts?.length)?.artifacts;
-  if (duplicateArtifacts?.length) {
+
+  // Reconciliation removes the duplicate work record, not its approved
+  // playable edition. Preserve every distinct locator on the canonical work.
+  const preservedPlayableEditions = [
+    ...(existingWork?.editions || []),
+    ...(duplicate?.editions || [])
+  ].filter((edition) => edition.storyFile?.storyUrl);
+  for (const preserved of preservedPlayableEditions) {
+    const alreadyPresent = editions.some((edition) =>
+      edition.editionId === preserved.editionId
+      || edition.storyFile?.storyUrl === preserved.storyFile.storyUrl);
+    if (!alreadyPresent) editions.unshift(preserved);
+  }
+
+  const preservedArtifacts = [
+    ...(existingWork?.editions || []),
+    ...(duplicate?.editions || [])
+  ].flatMap((edition) => edition.artifacts || []);
+  if (preservedArtifacts.length) {
     const targetEdition = editions.find((edition) => edition.storyFile?.storyUrl) || editions[0];
-    targetEdition.artifacts = duplicateArtifacts;
+    targetEdition.artifacts = [...new Map([
+      ...(targetEdition.artifacts || []),
+      ...preservedArtifacts
+    ].map((artifact) => [artifact.artifactId, artifact])).values()];
   }
 
   return {
